@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', system-ui, sans-serif;
+  color: #334155;
+  background: #ffffff;
+}
+
+@layer components {
+  .btn-primary {
+    @apply inline-flex items-center justify-center font-bold transition-all duration-300 rounded-full bg-ocean-900 text-white hover:bg-ocean-800 shadow-lg hover:shadow-ocean-900/20 active:scale-95 px-8 py-4 text-lg gap-3;
+  }
+
+  .btn-secondary {
+    @apply inline-flex items-center justify-center px-8 py-4 rounded-full bg-white border-2 border-ocean-100 text-ocean-900 text-base font-bold hover:bg-ocean-50 transition-all duration-300;
+  }
+
+  .section-badge {
+    @apply text-ocean-600 font-medium tracking-widest uppercase text-sm block mb-4;
+  }
+
+  .section-title {
+    @apply text-4xl md:text-5xl font-serif text-ocean-900 mb-6;
+  }
+/* Styles pour les articles de blog */
+.prose h2 {
+  font-family: var(--font-serif);
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #0c4a6e;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.prose p {
+  margin-bottom: 1rem;
+  line-height: 1.8;
+  color: #475569;
+}
+
+.prose ul {
+  margin-bottom: 1rem;
+  padding-left: 1.5rem;
+}
+
+.prose li {
+  margin-bottom: 0.5rem;
+  color: #475569;
+  list-style-type: disc;
+}
+
+.prose strong {
+  color: #0c4a6e;
+  font-weight: 600;
+}
+}
