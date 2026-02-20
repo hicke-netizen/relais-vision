@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { Sparkles, CircleCheck, Calendar } from "lucide-react";
+import siteConfig from "@/siteConfig";
 
 export default function HeroSection() {
   return (
@@ -13,10 +14,11 @@ export default function HeroSection() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full grid lg:grid-cols-12 gap-12 items-center">
         {/* Left Content */}
         <div className="lg:col-span-6 order-2 lg:order-1">
-          {/* Badge */}
+
+          {/* ✅ MODIFIÉ : Badge avec ville et région depuis siteConfig */}
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white border border-ocean-100 shadow-sm text-ocean-800 text-sm font-medium mb-8">
             <Sparkles className="w-4 h-4 text-ocean-600" />
-            <span>Relais Vision Montdidier • Hauts-de-France</span>
+            <span>Relais Vision {siteConfig.ville} • {siteConfig.region}</span>
           </div>
 
           {/* Title */}
@@ -25,13 +27,15 @@ export default function HeroSection() {
             <span className="italic text-ocean-600">est notre priorité</span>
           </h1>
 
-          {/* Description */}
+          {/* ✅ MODIFIÉ : Description avec ville et praticienne depuis siteConfig */}
           <div className="text-lg text-cloud-600 mb-8 max-w-xl leading-relaxed">
-            Bienvenue au <b>Cabinet d&apos;orthoptie et de téléophtalmologie de Montdidier</b>. <b>Jennifer Loisel</b> vous accompagne dans une démarche globale : du bilan visuel à la rééducation neurovisuelle, en passant par l&apos;optimisation de la performance oculaire.
+            Bienvenue au <b>Cabinet d&apos;orthoptie et de téléophtalmologie de {siteConfig.ville}</b>.{" "}
+            <b>{siteConfig.praticienne}</b> vous accompagne dans une démarche globale : du bilan visuel à la rééducation neurovisuelle, en passant par l&apos;optimisation de la performance oculaire.
           </div>
 
+          {/* ✅ MODIFIÉ : Médecin superviseur depuis siteConfig */}
           <div className="text-base text-cloud-500 mb-10 max-w-lg">
-            Que ce soit pour soulager une <b>fatigue visuelle</b>, accompagner des <b>troubles des apprentissages</b> ou <b>renouveler vos lunettes</b>, nous allions expertise clinique et technologies de pointe sous la supervision médicale du <b>Dr. Jean-Claude QUINTYN</b>.
+            Que ce soit pour soulager une <b>fatigue visuelle</b>, accompagner des <b>troubles des apprentissages</b> ou <b>renouveler vos lunettes</b>, nous allions expertise clinique et technologies de pointe sous la supervision médicale du <b>{siteConfig.medecin}</b>.
           </div>
 
           {/* Info Box */}
@@ -45,9 +49,14 @@ export default function HeroSection() {
             </div>
           </div>
 
-          {/* CTA Buttons */}
+          {/* ✅ MODIFIÉ : CTA Doctolib depuis siteConfig */}
           <div className="flex flex-col sm:flex-row gap-4">
-            <a href="https://www.doctolib.fr/cabinet-paramedical/montdidier/relais-vision-montdidier-jennifer-loisel" target="_blank" rel="noopener noreferrer" className="btn-primary group">
+            <a
+              href={siteConfig.doctolibUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-primary group"
+            >
               <Calendar className="w-5 h-5 group-hover:rotate-12 transition-transform" />
               <span>Prendre rendez-vous</span>
             </a>
@@ -60,24 +69,22 @@ export default function HeroSection() {
         {/* Right Side - Image */}
         <div className="lg:col-span-6 order-1 lg:order-2 relative">
           <div className="relative z-10 rounded-[3rem] overflow-hidden shadow-2xl shadow-ocean-900/10 aspect-[4/5] lg:aspect-auto h-[400px] lg:h-[600px] hover:scale-[1.02] transition-transform duration-700 ease-out mx-auto lg:mx-0 w-full max-w-md lg:max-w-none bg-gradient-to-br from-ocean-100 to-ocean-50">
-            {/* Placeholder pour l'image */}
-            <img src="/images/jeniifer-loisel.png" alt="Cabinet d'Orthoptie Montdidier" className="w-full h-full object-cover" />
-            <div className="w-full h-full flex items-center justify-center">
-              <div className="text-center p-8">
-                <div className="w-24 h-24 mx-auto mb-6 bg-white rounded-3xl shadow-xl flex items-center justify-center">
-                  <svg className="w-12 h-12 text-ocean-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
-                  </svg>
-                </div>
-                <p className="text-ocean-600 font-medium">Ajoutez votre photo ici</p>
-              </div>
-            </div>
+
+            {/* ✅ MODIFIÉ : Photo praticienne depuis siteConfig */}
+            <img
+              src={siteConfig.photoPraticienne}
+              alt={`${siteConfig.praticienne} - Cabinet d'Orthoptie ${siteConfig.ville}`}
+              className="w-full h-full object-cover"
+            />
+
             {/* Overlay gradient */}
             <div className="absolute inset-0 bg-gradient-to-t from-ocean-950/80 via-transparent to-transparent" />
-            {/* Text overlay */}
+
+            {/* ✅ MODIFIÉ : Texte overlay avec ville depuis siteConfig */}
             <div className="absolute bottom-0 left-0 right-0 p-8 sm:p-10 text-white">
-              <div className="font-serif text-3xl lg:text-4xl font-medium mb-2 leading-tight">Cabinet d&apos;Orthoptie à Montdidier</div>
+              <div className="font-serif text-3xl lg:text-4xl font-medium mb-2 leading-tight">
+                Cabinet d&apos;Orthoptie à {siteConfig.ville}
+              </div>
               <div className="text-ocean-100 text-lg font-light">Une collaboration innovante pour votre vue.</div>
             </div>
           </div>

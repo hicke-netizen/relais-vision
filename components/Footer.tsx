@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { MapPin, Phone, Mail } from "lucide-react";
+import siteConfig from "@/siteConfig";
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -8,6 +9,7 @@ export default function Footer() {
     <footer className="bg-ocean-950 text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
+
           {/* Brand */}
           <div>
             <Link href="/" className="flex items-center gap-3 mb-6">
@@ -19,7 +21,8 @@ export default function Footer() {
               </div>
               <div>
                 <span className="font-serif font-bold text-lg block">Cabinet d&apos;Orthoptie</span>
-                <span className="text-ocean-400 text-sm">Montdidier</span>
+                {/* ✅ MODIFIÉ : ville depuis siteConfig */}
+                <span className="text-ocean-400 text-sm">{siteConfig.ville}</span>
               </div>
             </Link>
             <p className="text-ocean-300 text-sm leading-relaxed">
@@ -42,7 +45,10 @@ export default function Footer() {
                 <Link href="/blog" className="text-ocean-300 hover:text-white transition-colors">Articles & Conseils</Link>
               </li>
               <li>
-                <a href="https://www.doctolib.fr" target="_blank" rel="noopener noreferrer" className="text-ocean-300 hover:text-white transition-colors">Prendre Rendez-vous</a>
+                {/* ✅ MODIFIÉ : URL Doctolib depuis siteConfig */}
+                <a href={siteConfig.doctolibUrl} target="_blank" rel="noopener noreferrer" className="text-ocean-300 hover:text-white transition-colors">
+                  Prendre Rendez-vous
+                </a>
               </li>
             </ul>
           </div>
@@ -50,23 +56,14 @@ export default function Footer() {
           {/* Horaires */}
           <div>
             <h3 className="font-serif font-semibold text-lg mb-6">Horaires</h3>
+            {/* ✅ MODIFIÉ : horaires depuis siteConfig (tableau dynamique) */}
             <ul className="space-y-3 text-sm">
-              <li className="flex justify-between">
-                <span className="text-ocean-300">Lun - Mer</span>
-                <span className="text-white">9h00 - 18h00</span>
-              </li>
-              <li className="flex justify-between">
-                <span className="text-ocean-300">Jeudi</span>
-                <span className="text-white">Fermé</span>
-              </li>
-              <li className="flex justify-between">
-                <span className="text-ocean-300">Vendredi</span>
-                <span className="text-white">9h00 - 18h00</span>
-              </li>
-              <li className="flex justify-between">
-                <span className="text-ocean-300">Sam - Dim</span>
-                <span className="text-white">Fermé</span>
-              </li>
+              {siteConfig.horaires.map((h, i) => (
+                <li key={i} className="flex justify-between">
+                  <span className="text-ocean-300">{h.jours}</span>
+                  <span className="text-white">{h.heures}</span>
+                </li>
+              ))}
             </ul>
           </div>
 
@@ -75,21 +72,32 @@ export default function Footer() {
             <h3 className="font-serif font-semibold text-lg mb-6">Nous trouver</h3>
             <ul className="space-y-4">
               <li>
-                <a href="https://www.google.com/maps/search/?api=1&query=Montdidier+80500" target="_blank" rel="noopener noreferrer" className="flex items-start text-ocean-300 hover:text-white transition-colors">
+                {/* ✅ MODIFIÉ : adresse et lien Maps depuis siteConfig */}
+                <a
+                  href={`https://www.google.com/maps/search/?api=1&query=${siteConfig.ville}+${siteConfig.codePostal}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-start text-ocean-300 hover:text-white transition-colors"
+                >
                   <MapPin className="w-5 h-5 mr-3 mt-0.5 flex-shrink-0 text-ocean-400" />
-                  <span>1 Pl. Faidherbe<br />80500 Montdidier</span>
+                  <span>
+                    {siteConfig.adresseLigne1}<br />
+                    {siteConfig.adresseLigne2}
+                  </span>
                 </a>
               </li>
               <li>
-                <a href="tel:0806110504" className="flex items-center text-ocean-300 hover:text-white transition-colors">
+                {/* ✅ MODIFIÉ : téléphone depuis siteConfig */}
+                <a href={`tel:${siteConfig.telephone}`} className="flex items-center text-ocean-300 hover:text-white transition-colors">
                   <Phone className="w-5 h-5 mr-3 flex-shrink-0 text-ocean-400" />
-                  0 806 110 504
+                  {siteConfig.telephoneAffiche}
                 </a>
               </li>
               <li>
-                <a href="mailto:montdidier-80@relais-vision.fr" className="flex items-center text-ocean-300 hover:text-white transition-colors">
+                {/* ✅ MODIFIÉ : email depuis siteConfig */}
+                <a href={`mailto:${siteConfig.email}`} className="flex items-center text-ocean-300 hover:text-white transition-colors">
                   <Mail className="w-5 h-5 mr-3 flex-shrink-0 text-ocean-400" />
-                  montdidier-80@relais-vision.fr
+                  {siteConfig.email}
                 </a>
               </li>
             </ul>
@@ -99,8 +107,9 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="mt-12 pt-8 border-t border-ocean-800">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
+            {/* ✅ MODIFIÉ : nom du cabinet depuis siteConfig */}
             <p className="text-ocean-400 text-sm">
-              © {currentYear} Cabinet D&apos;orthoptie Montdidier. Tous droits réservés.
+              © {currentYear} Cabinet d&apos;Orthoptie {siteConfig.ville}. Tous droits réservés.
             </p>
             <div className="flex items-center space-x-6 text-sm">
               <Link href="/mentions-legales" className="text-ocean-400 hover:text-white transition-colors">Mentions Légales</Link>
