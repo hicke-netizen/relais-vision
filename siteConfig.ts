@@ -1,13 +1,13 @@
-// Configuration — Cabinet Relais Vision Beynat
+// Configuration — Cabinet Relais Vision Burlats
 // Généré automatiquement le 02/03/2026
 
 const siteConfig = {
-  ville: "Beynat",
-  codePostal: "19190",
-  region: "Nouvelle-Aquitaine",
+  ville: "Burlats",
+  codePostal: "81100",
+  region: "Occitanie",
 
-  praticienne: "Beranger-Lagardère Julie",
-  bioPraticienne: "Diplômée en orthoptie, Beranger-Lagardère Julie prend en charge les bilans visuels, le renouvellement d'ordonnances de lunettes et la rééducation orthoptique pour les enfants et adultes.",
+  praticienne: "Charlotte Membrives",
+  bioPraticienne: "Diplômée en orthoptie, Charlotte Membrives prend en charge les bilans visuels, le renouvellement d'ordonnances de lunettes et la rééducation orthoptique pour les enfants et adultes.",
   specialitesPraticienne: [
     "Neurovision",
     "Bilan visuel enfant",
@@ -32,14 +32,14 @@ const siteConfig = {
 
   medecin: "Dr. Sofiane Souissi",
 
-  adresseLigne1: "1 Rue des Lucioles",
-  adresseLigne2: "19190 Beynat",
+  adresseLigne1: "27 Avenue Du Sidobre",
+  adresseLigne2: "81100 Burlats",
 
   telephone: "806110504",
   telephoneAffiche: "0 806 11 05 04",
-  email: "beynat-19@relais-vision.fr",
+  email: "burlats-81@relais-vision.fr",
 
-  doctolibUrl: "https://www.doctolib.fr/cabinet-paramedical/beynat/relais-vision-beynat",
+  doctolibUrl: "https://www.doctolib.fr/cabinet-paramedical/burlats/relais-vision-burlats",
 
   horaires: [
     { jours: "Lun - Ven", heures: "9h00 - 18h00" },
