@@ -6,8 +6,8 @@ const siteConfig = {
   codePostal: "62290",
   region: "Hauts-de-France",
 
-  praticienne: "Juliette Louchar",
-  bioPraticienne: "Diplômée en orthoptie, Juliette Louchar prend en charge les bilans visuels, le renouvellement d'ordonnances de lunettes et la rééducation orthoptique pour les enfants et adultes.",
+  praticienne: "Juliette Louchart",
+  bioPraticienne: "Diplômée en orthoptie, Juliette Louchart prend en charge les bilans visuels, le renouvellement d'ordonnances de lunettes et la rééducation orthoptique pour les enfants et adultes.",
   specialitesPraticienne: [
     "Neurovision",
     "Bilan visuel enfant",
