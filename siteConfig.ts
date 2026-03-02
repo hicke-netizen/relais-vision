@@ -1,13 +1,13 @@
-// Configuration — Cabinet Relais Vision Châteauneuf-sur-Isère
+// Configuration — Cabinet Relais Vision Bury
 // Généré automatiquement le 02/03/2026
 
 const siteConfig = {
-  ville: "Châteauneuf-sur-Isère",
-  codePostal: "26300",
-  region: "Auvergne-Rhône-Alpes",
+  ville: "Bury",
+  codePostal: "60250",
+  region: "Hauts-de-France",
 
-  praticienne: "Romane Bismuth",
-  bioPraticienne: "Diplômée en orthoptie, Romane Bismuth prend en charge les bilans visuels, le renouvellement d'ordonnances de lunettes et la rééducation orthoptique pour les enfants et adultes.",
+  praticienne: "Fanny Kasznik",
+  bioPraticienne: "Diplômée en orthoptie, Fanny Kasznik prend en charge les bilans visuels, le renouvellement d'ordonnances de lunettes et la rééducation orthoptique pour les enfants et adultes.",
   specialitesPraticienne: [
     "Neurovision",
     "Bilan visuel enfant",
@@ -32,14 +32,14 @@ const siteConfig = {
 
   medecin: "Dr. Sofiane Souissi",
 
-  adresseLigne1: "3 Rue De L'école",
-  adresseLigne2: "26300 Châteauneuf-sur-Isère",
+  adresseLigne1: "262 Rue Herminie",
+  adresseLigne2: "60250 Bury",
 
   telephone: "806110504",
   telephoneAffiche: "0 806 11 05 04",
-  email: "chateauneuf-sur-isere-26@relais-vision.fr",
+  email: "bury-60@relais-vision.fr",
 
-  doctolibUrl: "https://www.doctolib.fr/cabinet-paramedical/chateauneuf-sur-isere/relais-vision-chateauneuf-sur-isere",
+  doctolibUrl: "https://www.doctolib.fr/cabinet-paramedical/bury/relais-vision-bury",
 
   horaires: [
     { jours: "Lun - Ven", heures: "9h00 - 18h00" },
