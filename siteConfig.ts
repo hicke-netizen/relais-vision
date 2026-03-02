@@ -1,13 +1,13 @@
-// Configuration — Cabinet Relais Vision Cuinchy
+// Configuration — Cabinet Relais Vision Orthez
 // Généré automatiquement le 02/03/2026
 
 const siteConfig = {
-  ville: "Cuinchy",
-  codePostal: "62149",
-  region: "Hauts-de-France",
+  ville: "Orthez",
+  codePostal: "64300",
+  region: "Nouvelle-Aquitaine",
 
-  praticienne: "Christel Gros",
-  bioPraticienne: "Diplômée en orthoptie, Christel Gros prend en charge les bilans visuels, le renouvellement d'ordonnances de lunettes et la rééducation orthoptique pour les enfants et adultes.",
+  praticienne: "Aurélien Le Galliard",
+  bioPraticienne: "Diplômée en orthoptie, Aurélien Le Galliard prend en charge les bilans visuels, le renouvellement d'ordonnances de lunettes et la rééducation orthoptique pour les enfants et adultes.",
   specialitesPraticienne: [
     "Neurovision",
     "Bilan visuel enfant",
@@ -32,14 +32,14 @@ const siteConfig = {
 
   medecin: "Dr. Sofiane Souissi",
 
-  adresseLigne1: "28 Rue Jean-Jaurès",
-  adresseLigne2: "62149 Cuinchy",
+  adresseLigne1: "2b Avenue Du Président Kennedy",
+  adresseLigne2: "64300 Orthez",
 
   telephone: "806110504",
   telephoneAffiche: "0 806 11 05 04",
-  email: "cuinchy-62@relais-vision.fr",
+  email: "orthez-64@relais-vision.fr",
 
-  doctolibUrl: "https://www.doctolib.fr/cabinet-paramedical/cuinchy/relais-vision-cuinchy",
+  doctolibUrl: "https://www.doctolib.fr/cabinet-paramedical/orthez/relais-vision-orthez",
 
   horaires: [
     { jours: "Lun - Ven", heures: "9h00 - 18h00" },
