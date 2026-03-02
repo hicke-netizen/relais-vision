@@ -1,13 +1,13 @@
-// Configuration — Cabinet Relais Vision Thionville
+// Configuration — Cabinet Relais Vision Canéjan
 // Généré automatiquement le 02/03/2026
 
 const siteConfig = {
-  ville: "Thionville",
-  codePostal: "57100",
-  region: "Grand Est",
+  ville: "Canéjan",
+  codePostal: "33610",
+  region: "Nouvelle-Aquitaine",
 
-  praticienne: "Anne Feldmann",
-  bioPraticienne: "Diplômée en orthoptie, Anne Feldmann prend en charge les bilans visuels, le renouvellement d'ordonnances de lunettes et la rééducation orthoptique pour les enfants et adultes.",
+  praticienne: "Adeline Le Roux",
+  bioPraticienne: "Diplômée en orthoptie, Adeline Le Roux prend en charge les bilans visuels, le renouvellement d'ordonnances de lunettes et la rééducation orthoptique pour les enfants et adultes.",
   specialitesPraticienne: [
     "Neurovision",
     "Bilan visuel enfant",
@@ -32,14 +32,14 @@ const siteConfig = {
 
   medecin: "Dr. Sofiane Souissi",
 
-  adresseLigne1: "10 Rue Saint-Nicolas",
-  adresseLigne2: "57100 Thionville",
+  adresseLigne1: "26 Chemin Salvador Allende",
+  adresseLigne2: "33610 Canéjan",
 
   telephone: "806110504",
   telephoneAffiche: "0 806 11 05 04",
-  email: "thionville-57@relais-vision.fr",
+  email: "canejan-33@relais-vision.fr",
 
-  doctolibUrl: "https://www.doctolib.fr/cabinet-paramedical/thionville/relais-vision-thionville",
+  doctolibUrl: "https://www.doctolib.fr/cabinet-paramedical/canejan/relais-vision-canejan",
 
   horaires: [
     { jours: "Lun - Ven", heures: "9h00 - 18h00" },
