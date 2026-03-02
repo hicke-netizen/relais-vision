@@ -1,13 +1,13 @@
-// Configuration — Cabinet Relais Vision Orchies
+// Configuration — Cabinet Relais Vision Saint-Pol-sur-Ternoise
 // Généré automatiquement le 02/03/2026
 
 const siteConfig = {
-  ville: "Orchies",
-  codePostal: "59310",
+  ville: "Saint-Pol-sur-Ternoise",
+  codePostal: "62130",
   region: "Hauts-de-France",
 
-  praticienne: "Maxime Jakubowicz",
-  bioPraticienne: "Diplômée en orthoptie, Maxime Jakubowicz prend en charge les bilans visuels, le renouvellement d'ordonnances de lunettes et la rééducation orthoptique pour les enfants et adultes.",
+  praticienne: "Jeanne Laforce",
+  bioPraticienne: "Diplômée en orthoptie, Jeanne Laforce prend en charge les bilans visuels, le renouvellement d'ordonnances de lunettes et la rééducation orthoptique pour les enfants et adultes.",
   specialitesPraticienne: [
     "Neurovision",
     "Bilan visuel enfant",
@@ -32,14 +32,14 @@ const siteConfig = {
 
   medecin: "Dr. Sofiane Souissi",
 
-  adresseLigne1: "16 Avenue De La Libération",
-  adresseLigne2: "59310 Orchies",
+  adresseLigne1: "176 Rue D'hesdin",
+  adresseLigne2: "62130 Saint-Pol-sur-Ternoise",
 
   telephone: "806110504",
   telephoneAffiche: "0 806 11 05 04",
-  email: "orchies-59@relais-vision.fr",
+  email: "saint-pol-sur-ternoise-62@relais-vision.fr",
 
-  doctolibUrl: "https://www.doctolib.fr/cabinet-paramedical/orchies/relais-vision-orchies",
+  doctolibUrl: "https://www.doctolib.fr/cabinet-paramedical/saint-pol-sur-ternoise/relais-vision-saint-pol-sur-ternoise",
 
   horaires: [
     { jours: "Lun - Ven", heures: "9h00 - 18h00" },
