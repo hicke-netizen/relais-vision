@@ -1,13 +1,13 @@
-// Configuration — Cabinet Relais Vision Noyelles-Godault
+// Configuration — Cabinet Relais Vision Angoulême
 // Généré automatiquement le 02/03/2026
 
 const siteConfig = {
-  ville: "Noyelles-Godault",
-  codePostal: "62950",
-  region: "Hauts-de-France",
+  ville: "Angoulême",
+  codePostal: "16000",
+  region: "Nouvelle-Aquitaine",
 
-  praticienne: "Chloé Carlier",
-  bioPraticienne: "Diplômée en orthoptie, Chloé Carlier prend en charge les bilans visuels, le renouvellement d'ordonnances de lunettes et la rééducation orthoptique pour les enfants et adultes.",
+  praticienne: "Marina Blanloeuil",
+  bioPraticienne: "Diplômée en orthoptie, Marina Blanloeuil prend en charge les bilans visuels, le renouvellement d'ordonnances de lunettes et la rééducation orthoptique pour les enfants et adultes.",
   specialitesPraticienne: [
     "Neurovision",
     "Bilan visuel enfant",
@@ -32,14 +32,14 @@ const siteConfig = {
 
   medecin: "Dr. Sofiane Souissi",
 
-  adresseLigne1: "7 Rue Anne Frank",
-  adresseLigne2: "62950 Noyelles-Godault",
+  adresseLigne1: "89 Rue De Paris",
+  adresseLigne2: "16000 Angoulême",
 
   telephone: "806110504",
   telephoneAffiche: "0 806 11 05 04",
-  email: "noyelles-godault-62@relais-vision.fr",
+  email: "angouleme-16@relais-vision.fr",
 
-  doctolibUrl: "https://www.doctolib.fr/cabinet-paramedical/noyelles-godault/relais-vision-noyelles-godault",
+  doctolibUrl: "https://www.doctolib.fr/cabinet-paramedical/angouleme/relais-vision-angouleme",
 
   horaires: [
     { jours: "Lun - Ven", heures: "9h00 - 18h00" },
