@@ -1,13 +1,13 @@
-// Configuration — Cabinet Relais Vision Revel
+// Configuration — Cabinet Relais Vision Vieux-Berquin
 // Généré automatiquement le 02/03/2026
 
 const siteConfig = {
-  ville: "Revel",
-  codePostal: "31250",
-  region: "Occitanie",
+  ville: "Vieux-Berquin",
+  codePostal: "59232",
+  region: "Hauts-de-France",
 
-  praticienne: "Frédéric Le Brun",
-  bioPraticienne: "Diplômée en orthoptie, Frédéric Le Brun prend en charge les bilans visuels, le renouvellement d'ordonnances de lunettes et la rééducation orthoptique pour les enfants et adultes.",
+  praticienne: "Louise Asseman",
+  bioPraticienne: "Diplômée en orthoptie, Louise Asseman prend en charge les bilans visuels, le renouvellement d'ordonnances de lunettes et la rééducation orthoptique pour les enfants et adultes.",
   specialitesPraticienne: [
     "Neurovision",
     "Bilan visuel enfant",
@@ -32,14 +32,14 @@ const siteConfig = {
 
   medecin: "Dr. Sofiane Souissi",
 
-  adresseLigne1: "20 Rue Clémence Isaure",
-  adresseLigne2: "31250 Revel",
+  adresseLigne1: "212 Zone Artisanale Des Champs De La Couronne",
+  adresseLigne2: "59232 Vieux-Berquin",
 
   telephone: "806110504",
   telephoneAffiche: "0 806 11 05 04",
-  email: "revel-31@relais-vision.fr",
+  email: "vieux-berquin-59@relais-vision.fr",
 
-  doctolibUrl: "https://www.doctolib.fr/cabinet-paramedical/revel/relais-vision-revel",
+  doctolibUrl: "https://www.doctolib.fr/cabinet-paramedical/vieux-berquin/relais-vision-vieux-berquin",
 
   horaires: [
     { jours: "Lun - Ven", heures: "9h00 - 18h00" },
