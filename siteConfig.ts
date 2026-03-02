@@ -1,24 +1,25 @@
+// Configuration — Cabinet Relais Vision Carvin
+// Généré automatiquement le 02/03/2026
+
 const siteConfig = {
-  ville: "Montdidier",
-  codePostal: "80500",
+  ville: "Carvin",
+  codePostal: "62220",
   region: "Hauts-de-France",
 
-  praticienne: "Jennifer Loisel",
-  bioPraticienne:
-    "Diplômée de la faculté de médecine d'Amiens. Elle se consacre particulièrement aux bilans Neurovisuels et à l'analyse des troubles des apprentissages, ainsi qu'à l'optimisation de la vision pour un confort quotidien optimal.",
+  praticienne: "Morgane Devos",
+  bioPraticienne: "Diplômée en orthoptie, Morgane Devos prend en charge les bilans visuels, le renouvellement d'ordonnances de lunettes et la rééducation orthoptique pour les enfants et adultes.",
   specialitesPraticienne: [
     "Neurovision",
-    "Vision & Sport",
+    "Bilan visuel enfant",
     "Troubles DYS et TDA/H",
     "Strabologie",
     "Réfraction",
   ],
-  photoPraticienne: "/images/jeniifer-loisel.png",
+  photoPraticienne: "/images/praticien.jpg",
 
   ophtalmologue: "Dr. Sofiane Souissi",
   titreOphtalmologue: "Chirurgien Ophtalmologue",
-  bioOphtalmologue:
-    "Ophtalmologue reconnu. Il apporte sa caution médicale en supervisant l'analyse des dossiers de télé-ophtalmologie, garantissant la sécurité du diagnostic.",
+  bioOphtalmologue: "Ophtalmologue reconnu. Il apporte sa caution médicale en supervisant l'analyse des dossiers de télé-ophtalmologie, garantissant la sécurité du diagnostic.",
   specialitesOphtalmologue: [
     "Segment antérieur",
     "Cataracte",
@@ -29,26 +30,23 @@ const siteConfig = {
   ],
   photoOphtalmologue: "/images/Soufiane-Souissi.png",
 
-  medecin: "Dr. Jean-Claude QUINTYN",
+  medecin: "Dr. Sofiane Souissi",
 
-  adresseLigne1: "1 Pl. Faidherbe",
-  adresseLigne2: "80500 Montdidier",
+  adresseLigne1: "72 Rue Salvador Allende",
+  adresseLigne2: "62220 Carvin",
 
-  telephone: "0806110504",
-  telephoneAffiche: "0 806 110 504",
-  email: "montdidier-80@relais-vision.fr",
+  telephone: "806110504",
+  telephoneAffiche: "0 806 11 05 04",
+  email: "carvin-62@relais-vision.fr",
 
-  doctolibUrl:
-    "https://www.doctolib.fr/cabinet-paramedical/montdidier/relais-vision-montdidier-jennifer-loisel",
+  doctolibUrl: "https://www.doctolib.fr/cabinet-paramedical/carvin/relais-vision-carvin",
 
   horaires: [
-    { jours: "Lun - Mer", heures: "9h00 - 18h00" },
-    { jours: "Jeudi",     heures: "Fermé" },
-    { jours: "Vendredi",  heures: "9h00 - 18h00" },
-    { jours: "Sam - Dim", heures: "Fermé" },
+    { jours: "Lun - Jeu", heures: "9h00 - 12h30 / 13h30 - 19h00" },
+    { jours: "Ven - Dim", heures: "Fermé" }
   ],
 
-  photoDevanture:   "/images/devanture relais vision montdidier.webp",
+  photoDevanture:   "/images/devanture.webp",
   photoInterieur:   "/images/photo-interieur.jpg",
   photoEquipements: "/images/photos-equipements.jpg",
 };
