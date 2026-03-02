@@ -1,13 +1,13 @@
-// Configuration — Cabinet Relais Vision Les Sables-d'Olonne
+// Configuration — Cabinet Relais Vision Ernée
 // Généré automatiquement le 02/03/2026
 
 const siteConfig = {
-  ville: "Les Sables-d'Olonne",
-  codePostal: "85100",
+  ville: "Ernée",
+  codePostal: "53500",
   region: "Pays de la Loire",
 
-  praticienne: "Aurélie Patouret",
-  bioPraticienne: "Diplômée en orthoptie, Aurélie Patouret prend en charge les bilans visuels, le renouvellement d'ordonnances de lunettes et la rééducation orthoptique pour les enfants et adultes.",
+  praticienne: "Pauline Chrétien",
+  bioPraticienne: "Diplômée en orthoptie, Pauline Chrétien prend en charge les bilans visuels, le renouvellement d'ordonnances de lunettes et la rééducation orthoptique pour les enfants et adultes.",
   specialitesPraticienne: [
     "Neurovision",
     "Bilan visuel enfant",
@@ -32,14 +32,14 @@ const siteConfig = {
 
   medecin: "Dr. Sofiane Souissi",
 
-  adresseLigne1: "1 Rue Louis Braille",
-  adresseLigne2: "85100 Les Sables-d'Olonne",
+  adresseLigne1: "24 Avenue De Paris",
+  adresseLigne2: "53500 Ernée",
 
   telephone: "806110504",
   telephoneAffiche: "0 806 11 05 04",
-  email: "les-sables-d-olonne-85@relais-vision.fr",
+  email: "ernee-53@relais-vision.fr",
 
-  doctolibUrl: "https://www.doctolib.fr/cabinet-paramedical/les-sables-d-olonne/relais-vision-les-sables-d-olonne",
+  doctolibUrl: "https://www.doctolib.fr/cabinet-paramedical/ernee/relais-vision-ernee",
 
   horaires: [
     { jours: "Lun - Ven", heures: "9h00 - 18h00" },
