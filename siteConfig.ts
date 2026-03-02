@@ -1,13 +1,13 @@
-// Configuration — Cabinet Relais Vision Eperlecques
+// Configuration — Cabinet Relais Vision Le Havre
 // Généré automatiquement le 02/03/2026
 
 const siteConfig = {
-  ville: "Eperlecques",
-  codePostal: "62910",
-  region: "Hauts-de-France",
+  ville: "Le Havre",
+  codePostal: "76600",
+  region: "Normandie",
 
-  praticienne: "Solenne LEDEIN",
-  bioPraticienne: "Diplômée en orthoptie, Solenne LEDEIN prend en charge les bilans visuels, le renouvellement d'ordonnances de lunettes et la rééducation orthoptique pour les enfants et adultes.",
+  praticienne: "Adrien Boinet",
+  bioPraticienne: "Diplômée en orthoptie, Adrien Boinet prend en charge les bilans visuels, le renouvellement d'ordonnances de lunettes et la rééducation orthoptique pour les enfants et adultes.",
   specialitesPraticienne: [
     "Neurovision",
     "Bilan visuel enfant",
@@ -32,14 +32,14 @@ const siteConfig = {
 
   medecin: "Dr. Sofiane Souissi",
 
-  adresseLigne1: "18 Rue De Bleue-Maison",
-  adresseLigne2: "62910 Eperlecques",
+  adresseLigne1: "55b Rue Gustave Flaubert",
+  adresseLigne2: "76600 Le Havre",
 
   telephone: "806110504",
   telephoneAffiche: "0 806 11 05 04",
-  email: "eperlecques-62@relais-vision.fr",
+  email: "le-havre-76@relais-vision.fr",
 
-  doctolibUrl: "https://www.doctolib.fr/cabinet-paramedical/eperlecques/relais-vision-eperlecques",
+  doctolibUrl: "https://www.doctolib.fr/cabinet-paramedical/le-havre/relais-vision-le-havre",
 
   horaires: [
     { jours: "Lun - Ven", heures: "9h00 - 18h00" },
