@@ -1,13 +1,13 @@
-// Configuration — Cabinet Relais Vision Tonnerre
+// Configuration — Cabinet Relais Vision Orchies
 // Généré automatiquement le 02/03/2026
 
 const siteConfig = {
-  ville: "Tonnerre",
-  codePostal: "89700",
-  region: "Bourgogne-Franche-Comté",
+  ville: "Orchies",
+  codePostal: "59310",
+  region: "Hauts-de-France",
 
-  praticienne: "Ibtissame Youssouf Said",
-  bioPraticienne: "Diplômée en orthoptie, Ibtissame Youssouf Said prend en charge les bilans visuels, le renouvellement d'ordonnances de lunettes et la rééducation orthoptique pour les enfants et adultes.",
+  praticienne: "Maxime Jakubowicz",
+  bioPraticienne: "Diplômée en orthoptie, Maxime Jakubowicz prend en charge les bilans visuels, le renouvellement d'ordonnances de lunettes et la rééducation orthoptique pour les enfants et adultes.",
   specialitesPraticienne: [
     "Neurovision",
     "Bilan visuel enfant",
@@ -32,14 +32,14 @@ const siteConfig = {
 
   medecin: "Dr. Sofiane Souissi",
 
-  adresseLigne1: "Chemin Des Jumeriaux",
-  adresseLigne2: "89700 Tonnerre",
+  adresseLigne1: "16 Avenue De La Libération",
+  adresseLigne2: "59310 Orchies",
 
   telephone: "806110504",
   telephoneAffiche: "0 806 11 05 04",
-  email: "tonnerre-89@relais-vision.fr",
+  email: "orchies-59@relais-vision.fr",
 
-  doctolibUrl: "https://www.doctolib.fr/cabinet-paramedical/tonnerre/relais-vision-tonnerre",
+  doctolibUrl: "https://www.doctolib.fr/cabinet-paramedical/orchies/relais-vision-orchies",
 
   horaires: [
     { jours: "Lun - Ven", heures: "9h00 - 18h00" },
