@@ -1,13 +1,13 @@
-// Configuration — Cabinet Relais Vision Cambrai
+// Configuration — Cabinet Relais Vision Revel
 // Généré automatiquement le 02/03/2026
 
 const siteConfig = {
-  ville: "Cambrai",
-  codePostal: "59400",
-  region: "Hauts-de-France",
+  ville: "Revel",
+  codePostal: "31250",
+  region: "Occitanie",
 
-  praticienne: "Benjamin Flinois",
-  bioPraticienne: "Diplômée en orthoptie, Benjamin Flinois prend en charge les bilans visuels, le renouvellement d'ordonnances de lunettes et la rééducation orthoptique pour les enfants et adultes.",
+  praticienne: "Frédéric Le Brun",
+  bioPraticienne: "Diplômée en orthoptie, Frédéric Le Brun prend en charge les bilans visuels, le renouvellement d'ordonnances de lunettes et la rééducation orthoptique pour les enfants et adultes.",
   specialitesPraticienne: [
     "Neurovision",
     "Bilan visuel enfant",
@@ -32,14 +32,14 @@ const siteConfig = {
 
   medecin: "Dr. Sofiane Souissi",
 
-  adresseLigne1: "39 Rue Des Chaudronniers",
-  adresseLigne2: "59400 Cambrai",
+  adresseLigne1: "20 Rue Clémence Isaure",
+  adresseLigne2: "31250 Revel",
 
   telephone: "806110504",
   telephoneAffiche: "0 806 11 05 04",
-  email: "cambrai-59@relais-vision.fr",
+  email: "revel-31@relais-vision.fr",
 
-  doctolibUrl: "https://www.doctolib.fr/cabinet-paramedical/cambrai/relais-vision-cambrai",
+  doctolibUrl: "https://www.doctolib.fr/cabinet-paramedical/revel/relais-vision-revel",
 
   horaires: [
     { jours: "Lun - Ven", heures: "9h00 - 18h00" },
