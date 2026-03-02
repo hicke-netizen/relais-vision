@@ -1,13 +1,13 @@
-// Configuration — Cabinet Relais Vision Montbéliard
+// Configuration — Cabinet Relais Vision Romans-sur-Isère
 // Généré automatiquement le 02/03/2026
 
 const siteConfig = {
-  ville: "Montbéliard",
-  codePostal: "25200",
-  region: "Bourgogne-Franche-Comté",
+  ville: "Romans-sur-Isère",
+  codePostal: "26100",
+  region: "Auvergne-Rhône-Alpes",
 
-  praticienne: "Chloé Thourot",
-  bioPraticienne: "Diplômée en orthoptie, Chloé Thourot prend en charge les bilans visuels, le renouvellement d'ordonnances de lunettes et la rééducation orthoptique pour les enfants et adultes.",
+  praticienne: "Morgane D’Amato",
+  bioPraticienne: "Diplômée en orthoptie, Morgane D’Amato prend en charge les bilans visuels, le renouvellement d'ordonnances de lunettes et la rééducation orthoptique pour les enfants et adultes.",
   specialitesPraticienne: [
     "Neurovision",
     "Bilan visuel enfant",
@@ -32,14 +32,14 @@ const siteConfig = {
 
   medecin: "Dr. Sofiane Souissi",
 
-  adresseLigne1: "Rue André Boulloche",
-  adresseLigne2: "25200 Montbéliard",
+  adresseLigne1: "5 Rue Germain Martin",
+  adresseLigne2: "26100 Romans-sur-Isère",
 
   telephone: "806110504",
   telephoneAffiche: "0 806 11 05 04",
-  email: "montbeliard-25@relais-vision.fr",
+  email: "romans-sur-isere-26@relais-vision.fr",
 
-  doctolibUrl: "https://www.doctolib.fr/cabinet-paramedical/montbeliard/relais-vision-montbeliard",
+  doctolibUrl: "https://www.doctolib.fr/cabinet-paramedical/romans-sur-isere/relais-vision-romans-sur-isere",
 
   horaires: [
     { jours: "Lun - Ven", heures: "9h00 - 18h00" },
