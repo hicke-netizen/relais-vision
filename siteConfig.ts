@@ -1,13 +1,13 @@
-// Configuration — Cabinet Relais Vision Verfeil
+// Configuration — Cabinet Relais Vision Wavrin
 // Généré automatiquement le 02/03/2026
 
 const siteConfig = {
-  ville: "Verfeil",
-  codePostal: "31590",
-  region: "Occitanie",
+  ville: "Wavrin",
+  codePostal: "59136",
+  region: "Hauts-de-France",
 
-  praticienne: "Caroline Ferrié",
-  bioPraticienne: "Diplômée en orthoptie, Caroline Ferrié prend en charge les bilans visuels, le renouvellement d'ordonnances de lunettes et la rééducation orthoptique pour les enfants et adultes.",
+  praticienne: "Anne-Sophie Devos",
+  bioPraticienne: "Diplômée en orthoptie, Anne-Sophie Devos prend en charge les bilans visuels, le renouvellement d'ordonnances de lunettes et la rééducation orthoptique pour les enfants et adultes.",
   specialitesPraticienne: [
     "Neurovision",
     "Bilan visuel enfant",
@@ -32,14 +32,14 @@ const siteConfig = {
 
   medecin: "Dr. Sofiane Souissi",
 
-  adresseLigne1: "23 Avenue Grand Faubourg",
-  adresseLigne2: "31590 Verfeil",
+  adresseLigne1: "18 Rue Léon Gambetta",
+  adresseLigne2: "59136 Wavrin",
 
   telephone: "806110504",
   telephoneAffiche: "0 806 11 05 04",
-  email: "verfeil-31@relais-vision.fr",
+  email: "wavrin-59@relais-vision.fr",
 
-  doctolibUrl: "https://www.doctolib.fr/cabinet-paramedical/verfeil/relais-vision-verfeil",
+  doctolibUrl: "https://www.doctolib.fr/cabinet-paramedical/wavrin/relais-vision-wavrin",
 
   horaires: [
     { jours: "Lun - Ven", heures: "9h00 - 18h00" },
