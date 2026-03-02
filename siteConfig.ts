@@ -1,13 +1,13 @@
-// Configuration — Cabinet Relais Vision Carvin
+// Configuration — Cabinet Relais Vision Ars-Laquenexy
 // Généré automatiquement le 02/03/2026
 
 const siteConfig = {
-  ville: "Carvin",
-  codePostal: "62220",
-  region: "Hauts-de-France",
+  ville: "Ars-Laquenexy",
+  codePostal: "57530",
+  region: "Grand Est",
 
-  praticienne: "Morgane Devos",
-  bioPraticienne: "Diplômée en orthoptie, Morgane Devos prend en charge les bilans visuels, le renouvellement d'ordonnances de lunettes et la rééducation orthoptique pour les enfants et adultes.",
+  praticienne: "Alix Lamielle",
+  bioPraticienne: "Diplômée en orthoptie, Alix Lamielle prend en charge les bilans visuels, le renouvellement d'ordonnances de lunettes et la rééducation orthoptique pour les enfants et adultes.",
   specialitesPraticienne: [
     "Neurovision",
     "Bilan visuel enfant",
@@ -32,18 +32,18 @@ const siteConfig = {
 
   medecin: "Dr. Sofiane Souissi",
 
-  adresseLigne1: "72 Rue Salvador Allende",
-  adresseLigne2: "62220 Carvin",
+  adresseLigne1: "2A Rue du Jardin d'Ecosse",
+  adresseLigne2: "57530 Ars-Laquenexy",
 
-  telephone: "806110504",
-  telephoneAffiche: "0 806 11 05 04",
-  email: "carvin-62@relais-vision.fr",
+  telephone: "387767253",
+  telephoneAffiche: "03 87 76 72 53",
+  email: "ars-laquenexy-57@relais-vision.fr",
 
-  doctolibUrl: "https://www.doctolib.fr/cabinet-paramedical/carvin/relais-vision-carvin",
+  doctolibUrl: "https://www.doctolib.fr/cabinet-paramedical/ars-laquenexy/relais-vision-ars-laquenexy",
 
   horaires: [
-    { jours: "Lun - Jeu", heures: "9h00 - 12h30 / 13h30 - 19h00" },
-    { jours: "Ven - Dim", heures: "Fermé" }
+    { jours: "Lun / Mar / Jeu / Ven", heures: "8h30 - 12h30 / 13h30 - 18h00" },
+    { jours: "Mer / Sam / Dim", heures: "Fermé" }
   ],
 
   photoDevanture:   "/images/devanture.webp",
