@@ -1,13 +1,13 @@
-// Configuration — Cabinet Relais Vision Aire-sur-la-Lys
+// Configuration — Cabinet Relais Vision Bruyères
 // Généré automatiquement le 02/03/2026
 
 const siteConfig = {
-  ville: "Aire-sur-la-Lys",
-  codePostal: "62120",
-  region: "Hauts-de-France",
+  ville: "Bruyères",
+  codePostal: "88600",
+  region: "Grand Est",
 
-  praticienne: "Cécile Monvoisin",
-  bioPraticienne: "Diplômée en orthoptie, Cécile Monvoisin prend en charge les bilans visuels, le renouvellement d'ordonnances de lunettes et la rééducation orthoptique pour les enfants et adultes.",
+  praticienne: "Laura Formisi",
+  bioPraticienne: "Diplômée en orthoptie, Laura Formisi prend en charge les bilans visuels, le renouvellement d'ordonnances de lunettes et la rééducation orthoptique pour les enfants et adultes.",
   specialitesPraticienne: [
     "Neurovision",
     "Bilan visuel enfant",
@@ -32,14 +32,14 @@ const siteConfig = {
 
   medecin: "Dr. Sofiane Souissi",
 
-  adresseLigne1: "307 Route De Roquetoire",
-  adresseLigne2: "62120 Aire-sur-la-Lys",
+  adresseLigne1: "8 Rue de Gérardmer",
+  adresseLigne2: "88600 Bruyères",
 
   telephone: "806110504",
   telephoneAffiche: "0 806 11 05 04",
-  email: "aire-sur-la-lys-62@relais-vision.fr",
+  email: "bruyeres-88@relais-vision.fr",
 
-  doctolibUrl: "https://www.doctolib.fr/cabinet-paramedical/aire-sur-la-lys/relais-vision-aire-sur-la-lys",
+  doctolibUrl: "https://www.doctolib.fr/cabinet-paramedical/bruyeres/relais-vision-bruyeres",
 
   horaires: [
     { jours: "Lun - Ven", heures: "9h00 - 18h00" },
