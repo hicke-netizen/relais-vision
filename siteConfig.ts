@@ -1,13 +1,13 @@
-// Configuration — Cabinet Relais Vision Lesparre
+// Configuration — Cabinet Relais Vision Boulogne-sur-Mer
 // Généré automatiquement le 02/03/2026
 
 const siteConfig = {
-  ville: "Lesparre",
-  codePostal: "33340",
-  region: "Nouvelle-Aquitaine",
+  ville: "Boulogne-sur-Mer",
+  codePostal: "62200",
+  region: "Hauts-de-France",
 
-  praticienne: "Pauline Gueret",
-  bioPraticienne: "Diplômée en orthoptie, Pauline Gueret prend en charge les bilans visuels, le renouvellement d'ordonnances de lunettes et la rééducation orthoptique pour les enfants et adultes.",
+  praticienne: "Margaux Danel",
+  bioPraticienne: "Diplômée en orthoptie, Margaux Danel prend en charge les bilans visuels, le renouvellement d'ordonnances de lunettes et la rééducation orthoptique pour les enfants et adultes.",
   specialitesPraticienne: [
     "Neurovision",
     "Bilan visuel enfant",
@@ -32,14 +32,14 @@ const siteConfig = {
 
   medecin: "Dr. Sofiane Souissi",
 
-  adresseLigne1: "5 Place Gambetta",
-  adresseLigne2: "33340 Lesparre",
+  adresseLigne1: "12 Rue Haffreingue",
+  adresseLigne2: "62200 Boulogne-sur-Mer",
 
   telephone: "806110504",
   telephoneAffiche: "0 806 11 05 04",
-  email: "lesparre-33@relais-vision.fr",
+  email: "boulogne-sur-mer-62@relais-vision.fr",
 
-  doctolibUrl: "https://www.doctolib.fr/cabinet-paramedical/lesparre/relais-vision-lesparre",
+  doctolibUrl: "https://www.doctolib.fr/cabinet-paramedical/boulogne-sur-mer/relais-vision-boulogne-sur-mer",
 
   horaires: [
     { jours: "Lun - Ven", heures: "9h00 - 18h00" },
