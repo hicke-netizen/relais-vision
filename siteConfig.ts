@@ -1,13 +1,13 @@
-// Configuration — Cabinet Relais Vision Tournon-sur-Rhône
+// Configuration — Cabinet Relais Vision Sin-le-Noble
 // Généré automatiquement le 02/03/2026
 
 const siteConfig = {
-  ville: "Tournon-sur-Rhône",
-  codePostal: "7300",
-  region: "Auvergne-Rhône-Alpes",
+  ville: "Sin-le-Noble",
+  codePostal: "59450",
+  region: "Hauts-de-France",
 
-  praticienne: "Anaïs Deygas-Burato",
-  bioPraticienne: "Diplômée en orthoptie, Anaïs Deygas-Burato prend en charge les bilans visuels, le renouvellement d'ordonnances de lunettes et la rééducation orthoptique pour les enfants et adultes.",
+  praticienne: "Florence Allexandre",
+  bioPraticienne: "Diplômée en orthoptie, Florence Allexandre prend en charge les bilans visuels, le renouvellement d'ordonnances de lunettes et la rééducation orthoptique pour les enfants et adultes.",
   specialitesPraticienne: [
     "Neurovision",
     "Bilan visuel enfant",
@@ -32,14 +32,14 @@ const siteConfig = {
 
   medecin: "Dr. Sofiane Souissi",
 
-  adresseLigne1: "58 Rue Antoine Sartorio",
-  adresseLigne2: "07300 Tournon-sur-Rhône",
+  adresseLigne1: "413 Av. de la Liberté",
+  adresseLigne2: "59450 Sin-le-Noble",
 
   telephone: "806110504",
   telephoneAffiche: "0 806 11 05 04",
-  email: "tournon-sur-rhone-07@relais-vision.fr",
+  email: "sin-le-noble-59@relais-vision.fr",
 
-  doctolibUrl: "https://www.doctolib.fr/cabinet-paramedical/tournon-sur-rhone/relais-vision-tournon-sur-rhone",
+  doctolibUrl: "https://www.doctolib.fr/cabinet-paramedical/sin-le-noble/relais-vision-sin-le-noble",
 
   horaires: [
     { jours: "Lun - Ven", heures: "9h00 - 18h00" },
