@@ -1,13 +1,13 @@
-// Configuration — Cabinet Relais Vision Vagney
+// Configuration — Cabinet Relais Vision Tournon-sur-Rhône
 // Généré automatiquement le 02/03/2026
 
 const siteConfig = {
-  ville: "Vagney",
-  codePostal: "88120",
-  region: "Grand Est",
+  ville: "Tournon-sur-Rhône",
+  codePostal: "7300",
+  region: "Auvergne-Rhône-Alpes",
 
-  praticienne: "Amélia Vincent",
-  bioPraticienne: "Diplômée en orthoptie, Amélia Vincent prend en charge les bilans visuels, le renouvellement d'ordonnances de lunettes et la rééducation orthoptique pour les enfants et adultes.",
+  praticienne: "Anaïs Deygas-Burato",
+  bioPraticienne: "Diplômée en orthoptie, Anaïs Deygas-Burato prend en charge les bilans visuels, le renouvellement d'ordonnances de lunettes et la rééducation orthoptique pour les enfants et adultes.",
   specialitesPraticienne: [
     "Neurovision",
     "Bilan visuel enfant",
@@ -32,14 +32,14 @@ const siteConfig = {
 
   medecin: "Dr. Sofiane Souissi",
 
-  adresseLigne1: "22 bis rue d'Ouffet",
-  adresseLigne2: "88120 Vagney",
+  adresseLigne1: "58 Rue Antoine Sartorio",
+  adresseLigne2: "07300 Tournon-sur-Rhône",
 
   telephone: "806110504",
   telephoneAffiche: "0 806 11 05 04",
-  email: "vagney-88@relais-vision.fr",
+  email: "tournon-sur-rhone-07@relais-vision.fr",
 
-  doctolibUrl: "https://www.doctolib.fr/cabinet-paramedical/vagney/relais-vision-vagney",
+  doctolibUrl: "https://www.doctolib.fr/cabinet-paramedical/tournon-sur-rhone/relais-vision-tournon-sur-rhone",
 
   horaires: [
     { jours: "Lun - Ven", heures: "9h00 - 18h00" },
