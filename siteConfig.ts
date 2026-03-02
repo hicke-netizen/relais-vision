@@ -1,13 +1,13 @@
-// Configuration — Cabinet Relais Vision Chinon
+// Configuration — Cabinet Relais Vision Roanne
 // Généré automatiquement le 02/03/2026
 
 const siteConfig = {
-  ville: "Chinon",
-  codePostal: "37500",
-  region: "Centre-Val de Loire",
+  ville: "Roanne",
+  codePostal: "42300",
+  region: "Auvergne-Rhône-Alpes",
 
-  praticienne: "Mickaël Faget / Marie Perrin",
-  bioPraticienne: "Diplômée en orthoptie, Mickaël Faget / Marie Perrin prend en charge les bilans visuels, le renouvellement d'ordonnances de lunettes et la rééducation orthoptique pour les enfants et adultes.",
+  praticienne: "Clio Groppi-Chazelle / Anne Vigne",
+  bioPraticienne: "Diplômée en orthoptie, Clio Groppi-Chazelle / Anne Vigne prend en charge les bilans visuels, le renouvellement d'ordonnances de lunettes et la rééducation orthoptique pour les enfants et adultes.",
   specialitesPraticienne: [
     "Neurovision",
     "Bilan visuel enfant",
@@ -32,18 +32,19 @@ const siteConfig = {
 
   medecin: "Dr. Sofiane Souissi",
 
-  adresseLigne1: "18 Avenue Saint-Lazare",
-  adresseLigne2: "37500 Chinon",
+  adresseLigne1: "526 Chemin de la Tuilerie",
+  adresseLigne2: "42300 Roanne",
 
-  telephone: "806110504",
-  telephoneAffiche: "0 806 11 05 04",
-  email: "chinon-37@relais-vision.fr",
+  telephone: "477718430",
+  telephoneAffiche: "04 77 71 84 30",
+  email: "roanne-42@relais-vision.fr",
 
-  doctolibUrl: "https://www.doctolib.fr/cabinet-paramedical/chinon/relais-vision-chinon",
+  doctolibUrl: "https://www.doctolib.fr/cabinet-paramedical/roanne/relais-vision-roanne",
 
   horaires: [
-    { jours: "Lun / Mar / Mer / Ven", heures: "Ouvert toute la journée" },
-    { jours: "Jeu / Sam / Dim", heures: "Fermé" }
+    { jours: "Lun / Mar / Jeu / Ven", heures: "8h15 - 17h30" },
+    { jours: "Mercredi", heures: "8h00 - 16h00" },
+    { jours: "Sam - Dim", heures: "Fermé" }
   ],
 
   photoDevanture:   "/images/devanture.webp",
