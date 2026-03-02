@@ -1,13 +1,13 @@
-// Configuration — Cabinet Relais Vision Boulazac
+// Configuration — Cabinet Relais Vision L'Isle-d'Abeau
 // Généré automatiquement le 02/03/2026
 
 const siteConfig = {
-  ville: "Boulazac",
-  codePostal: "24750",
-  region: "Nouvelle-Aquitaine",
+  ville: "L'Isle-d'Abeau",
+  codePostal: "38080",
+  region: "Auvergne-Rhône-Alpes",
 
-  praticienne: "Djoha Kihal",
-  bioPraticienne: "Diplômée en orthoptie, Djoha Kihal prend en charge les bilans visuels, le renouvellement d'ordonnances de lunettes et la rééducation orthoptique pour les enfants et adultes.",
+  praticienne: "Yannick Dhien",
+  bioPraticienne: "Diplômée en orthoptie, Yannick Dhien prend en charge les bilans visuels, le renouvellement d'ordonnances de lunettes et la rééducation orthoptique pour les enfants et adultes.",
   specialitesPraticienne: [
     "Neurovision",
     "Bilan visuel enfant",
@@ -32,14 +32,14 @@ const siteConfig = {
 
   medecin: "Dr. Sofiane Souissi",
 
-  adresseLigne1: "1 Rue de Soci",
-  adresseLigne2: "24750 Boulazac",
+  adresseLigne1: "1 Rue de l'Hôtel de ville",
+  adresseLigne2: "38080 L'Isle-d'Abeau",
 
   telephone: "806110504",
   telephoneAffiche: "0 806 11 05 04",
-  email: "boulazac-24@relais-vision.fr",
+  email: "l-isle-d-abeau-38@relais-vision.fr",
 
-  doctolibUrl: "https://www.doctolib.fr/cabinet-paramedical/boulazac/relais-vision-boulazac",
+  doctolibUrl: "https://www.doctolib.fr/cabinet-paramedical/l-isle-d-abeau/relais-vision-l-isle-d-abeau",
 
   horaires: [
     { jours: "Lun - Ven", heures: "9h00 - 18h00" },
