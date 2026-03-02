@@ -1,13 +1,13 @@
-// Configuration — Cabinet Relais Vision Boulogne-sur-Mer
+// Configuration — Cabinet Relais Vision Dieppe
 // Généré automatiquement le 02/03/2026
 
 const siteConfig = {
-  ville: "Boulogne-sur-Mer",
-  codePostal: "62200",
-  region: "Hauts-de-France",
+  ville: "Dieppe",
+  codePostal: "76200",
+  region: "Normandie",
 
-  praticienne: "Margaux Danel",
-  bioPraticienne: "Diplômée en orthoptie, Margaux Danel prend en charge les bilans visuels, le renouvellement d'ordonnances de lunettes et la rééducation orthoptique pour les enfants et adultes.",
+  praticienne: "Justin Saunier",
+  bioPraticienne: "Diplômée en orthoptie, Justin Saunier prend en charge les bilans visuels, le renouvellement d'ordonnances de lunettes et la rééducation orthoptique pour les enfants et adultes.",
   specialitesPraticienne: [
     "Neurovision",
     "Bilan visuel enfant",
@@ -32,14 +32,14 @@ const siteConfig = {
 
   medecin: "Dr. Sofiane Souissi",
 
-  adresseLigne1: "12 Rue Haffreingue",
-  adresseLigne2: "62200 Boulogne-sur-Mer",
+  adresseLigne1: "9 Rue De L'ancien Port",
+  adresseLigne2: "76200 Dieppe",
 
   telephone: "806110504",
   telephoneAffiche: "0 806 11 05 04",
-  email: "boulogne-sur-mer-62@relais-vision.fr",
+  email: "dieppe-76@relais-vision.fr",
 
-  doctolibUrl: "https://www.doctolib.fr/cabinet-paramedical/boulogne-sur-mer/relais-vision-boulogne-sur-mer",
+  doctolibUrl: "https://www.doctolib.fr/cabinet-paramedical/dieppe/relais-vision-dieppe",
 
   horaires: [
     { jours: "Lun - Ven", heures: "9h00 - 18h00" },
