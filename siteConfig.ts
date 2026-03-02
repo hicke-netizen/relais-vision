@@ -1,13 +1,13 @@
-// Configuration — Cabinet Relais Vision Beaune
+// Configuration — Cabinet Relais Vision Plouarzel
 // Généré automatiquement le 02/03/2026
 
 const siteConfig = {
-  ville: "Beaune",
-  codePostal: "21200",
-  region: "Bourgogne-Franche-Comté",
+  ville: "Plouarzel",
+  codePostal: "29810",
+  region: "Bretagne",
 
-  praticienne: "Ikrame Izmar",
-  bioPraticienne: "Diplômée en orthoptie, Ikrame Izmar prend en charge les bilans visuels, le renouvellement d'ordonnances de lunettes et la rééducation orthoptique pour les enfants et adultes.",
+  praticienne: "Maud Lassau",
+  bioPraticienne: "Diplômée en orthoptie, Maud Lassau prend en charge les bilans visuels, le renouvellement d'ordonnances de lunettes et la rééducation orthoptique pour les enfants et adultes.",
   specialitesPraticienne: [
     "Neurovision",
     "Bilan visuel enfant",
@@ -32,14 +32,14 @@ const siteConfig = {
 
   medecin: "Dr. Sofiane Souissi",
 
-  adresseLigne1: "1 Route De Verdun",
-  adresseLigne2: "21200 Beaune",
+  adresseLigne1: "Rue De Prat Arzel",
+  adresseLigne2: "29810 Plouarzel",
 
   telephone: "806110504",
   telephoneAffiche: "0 806 11 05 04",
-  email: "beaune-21@relais-vision.fr",
+  email: "plouarzel-29@relais-vision.fr",
 
-  doctolibUrl: "https://www.doctolib.fr/cabinet-paramedical/beaune/relais-vision-beaune",
+  doctolibUrl: "https://www.doctolib.fr/cabinet-paramedical/plouarzel/relais-vision-plouarzel",
 
   horaires: [
     { jours: "Lun - Ven", heures: "9h00 - 18h00" },
