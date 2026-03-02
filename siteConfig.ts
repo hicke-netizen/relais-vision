@@ -1,13 +1,13 @@
-// Configuration — Cabinet Relais Vision Nouzilly
+// Configuration — Cabinet Relais Vision Isneauville
 // Généré automatiquement le 02/03/2026
 
 const siteConfig = {
-  ville: "Nouzilly",
-  codePostal: "37380",
-  region: "Centre-Val de Loire",
+  ville: "Isneauville",
+  codePostal: "76230",
+  region: "Normandie",
 
-  praticienne: "Mathilde Dehaudt",
-  bioPraticienne: "Diplômée en orthoptie, Mathilde Dehaudt prend en charge les bilans visuels, le renouvellement d'ordonnances de lunettes et la rééducation orthoptique pour les enfants et adultes.",
+  praticienne: "Corentin Frété",
+  bioPraticienne: "Diplômée en orthoptie, Corentin Frété prend en charge les bilans visuels, le renouvellement d'ordonnances de lunettes et la rééducation orthoptique pour les enfants et adultes.",
   specialitesPraticienne: [
     "Neurovision",
     "Bilan visuel enfant",
@@ -32,14 +32,14 @@ const siteConfig = {
 
   medecin: "Dr. Sofiane Souissi",
 
-  adresseLigne1: "19 Rue Paul Boivinet",
-  adresseLigne2: "37380 Nouzilly",
+  adresseLigne1: "239 Rue Du Mont Perreux",
+  adresseLigne2: "76230 Isneauville",
 
   telephone: "806110504",
   telephoneAffiche: "0 806 11 05 04",
-  email: "nouzilly-37@relais-vision.fr",
+  email: "isneauville-76@relais-vision.fr",
 
-  doctolibUrl: "https://www.doctolib.fr/cabinet-paramedical/nouzilly/relais-vision-nouzilly",
+  doctolibUrl: "https://www.doctolib.fr/cabinet-paramedical/isneauville/relais-vision-isneauville",
 
   horaires: [
     { jours: "Lun - Ven", heures: "9h00 - 18h00" },
