@@ -1,13 +1,13 @@
-// Configuration — Cabinet Relais Vision Vonnas
+// Configuration — Cabinet Relais Vision Beynat
 // Généré automatiquement le 02/03/2026
 
 const siteConfig = {
-  ville: "Vonnas",
-  codePostal: "1540",
-  region: "Auvergne-Rhône-Alpes",
+  ville: "Beynat",
+  codePostal: "19190",
+  region: "Nouvelle-Aquitaine",
 
-  praticienne: "Lysiane Rat",
-  bioPraticienne: "Diplômée en orthoptie, Lysiane Rat prend en charge les bilans visuels, le renouvellement d'ordonnances de lunettes et la rééducation orthoptique pour les enfants et adultes.",
+  praticienne: "Beranger-Lagardère Julie",
+  bioPraticienne: "Diplômée en orthoptie, Beranger-Lagardère Julie prend en charge les bilans visuels, le renouvellement d'ordonnances de lunettes et la rééducation orthoptique pour les enfants et adultes.",
   specialitesPraticienne: [
     "Neurovision",
     "Bilan visuel enfant",
@@ -32,14 +32,14 @@ const siteConfig = {
 
   medecin: "Dr. Sofiane Souissi",
 
-  adresseLigne1: "107 Rue du 19 Mars 1962",
-  adresseLigne2: "01540 Vonnas",
+  adresseLigne1: "1 Rue des Lucioles",
+  adresseLigne2: "19190 Beynat",
 
   telephone: "806110504",
   telephoneAffiche: "0 806 11 05 04",
-  email: "vonnas-01@relais-vision.fr",
+  email: "beynat-19@relais-vision.fr",
 
-  doctolibUrl: "https://www.doctolib.fr/cabinet-paramedical/vonnas/relais-vision-vonnas",
+  doctolibUrl: "https://www.doctolib.fr/cabinet-paramedical/beynat/relais-vision-beynat",
 
   horaires: [
     { jours: "Lun - Ven", heures: "9h00 - 18h00" },
