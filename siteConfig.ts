@@ -1,13 +1,13 @@
-// Configuration — Cabinet Relais Vision Marly
+// Configuration — Cabinet Relais Vision La Chapelle-des-Marais
 // Généré automatiquement le 02/03/2026
 
 const siteConfig = {
-  ville: "Marly",
-  codePostal: "57155",
-  region: "Grand Est",
+  ville: "La Chapelle-des-Marais",
+  codePostal: "44410",
+  region: "Pays de la Loire",
 
-  praticienne: "Luc Lebrun",
-  bioPraticienne: "Diplômée en orthoptie, Luc Lebrun prend en charge les bilans visuels, le renouvellement d'ordonnances de lunettes et la rééducation orthoptique pour les enfants et adultes.",
+  praticienne: "Adeline Oblin",
+  bioPraticienne: "Diplômée en orthoptie, Adeline Oblin prend en charge les bilans visuels, le renouvellement d'ordonnances de lunettes et la rééducation orthoptique pour les enfants et adultes.",
   specialitesPraticienne: [
     "Neurovision",
     "Bilan visuel enfant",
@@ -32,14 +32,14 @@ const siteConfig = {
 
   medecin: "Dr. Sofiane Souissi",
 
-  adresseLigne1: "79 Rue De La Gare",
-  adresseLigne2: "57155 Marly",
+  adresseLigne1: "1 Allée Des Roseaux",
+  adresseLigne2: "44410 La Chapelle-des-Marais",
 
   telephone: "806110504",
   telephoneAffiche: "0 806 11 05 04",
-  email: "marly-57@relais-vision.fr",
+  email: "la-chapelle-des-marais-44@relais-vision.fr",
 
-  doctolibUrl: "https://www.doctolib.fr/cabinet-paramedical/marly/relais-vision-marly",
+  doctolibUrl: "https://www.doctolib.fr/cabinet-paramedical/la-chapelle-des-marais/relais-vision-la-chapelle-des-marais",
 
   horaires: [
     { jours: "Lun - Ven", heures: "9h00 - 18h00" },
