@@ -1,13 +1,13 @@
-// Configuration — Cabinet Relais Vision Nogaro
+// Configuration — Cabinet Relais Vision Izon
 // Généré automatiquement le 02/03/2026
 
 const siteConfig = {
-  ville: "Nogaro",
-  codePostal: "32110",
-  region: "Occitanie",
+  ville: "Izon",
+  codePostal: "33450",
+  region: "Nouvelle-Aquitaine",
 
-  praticienne: "Marie Terrade",
-  bioPraticienne: "Diplômée en orthoptie, Marie Terrade prend en charge les bilans visuels, le renouvellement d'ordonnances de lunettes et la rééducation orthoptique pour les enfants et adultes.",
+  praticienne: "Anne Debavelaere",
+  bioPraticienne: "Diplômée en orthoptie, Anne Debavelaere prend en charge les bilans visuels, le renouvellement d'ordonnances de lunettes et la rééducation orthoptique pour les enfants et adultes.",
   specialitesPraticienne: [
     "Neurovision",
     "Bilan visuel enfant",
@@ -32,14 +32,14 @@ const siteConfig = {
 
   medecin: "Dr. Sofiane Souissi",
 
-  adresseLigne1: "14 Rue De La Poste",
-  adresseLigne2: "32110 Nogaro",
+  adresseLigne1: "14b Rue Des Écoles",
+  adresseLigne2: "33450 Izon",
 
   telephone: "806110504",
   telephoneAffiche: "0 806 11 05 04",
-  email: "nogaro-32@relais-vision.fr",
+  email: "izon-33@relais-vision.fr",
 
-  doctolibUrl: "https://www.doctolib.fr/cabinet-paramedical/nogaro/relais-vision-nogaro",
+  doctolibUrl: "https://www.doctolib.fr/cabinet-paramedical/izon/relais-vision-izon",
 
   horaires: [
     { jours: "Lun - Ven", heures: "9h00 - 18h00" },
