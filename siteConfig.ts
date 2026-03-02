@@ -1,13 +1,13 @@
-// Configuration — Cabinet Relais Vision Dieppe
+// Configuration — Cabinet Relais Vision Pessac
 // Généré automatiquement le 02/03/2026
 
 const siteConfig = {
-  ville: "Dieppe",
-  codePostal: "76200",
-  region: "Normandie",
+  ville: "Pessac",
+  codePostal: "33600",
+  region: "Nouvelle-Aquitaine",
 
-  praticienne: "Justin Saunier",
-  bioPraticienne: "Diplômée en orthoptie, Justin Saunier prend en charge les bilans visuels, le renouvellement d'ordonnances de lunettes et la rééducation orthoptique pour les enfants et adultes.",
+  praticienne: "Antoine Bazot",
+  bioPraticienne: "Diplômée en orthoptie, Antoine Bazot prend en charge les bilans visuels, le renouvellement d'ordonnances de lunettes et la rééducation orthoptique pour les enfants et adultes.",
   specialitesPraticienne: [
     "Neurovision",
     "Bilan visuel enfant",
@@ -32,14 +32,14 @@ const siteConfig = {
 
   medecin: "Dr. Sofiane Souissi",
 
-  adresseLigne1: "9 Rue De L'ancien Port",
-  adresseLigne2: "76200 Dieppe",
+  adresseLigne1: "88 Avenue Pasteur",
+  adresseLigne2: "33600 Pessac",
 
   telephone: "806110504",
   telephoneAffiche: "0 806 11 05 04",
-  email: "dieppe-76@relais-vision.fr",
+  email: "pessac-33@relais-vision.fr",
 
-  doctolibUrl: "https://www.doctolib.fr/cabinet-paramedical/dieppe/relais-vision-dieppe",
+  doctolibUrl: "https://www.doctolib.fr/cabinet-paramedical/pessac/relais-vision-pessac",
 
   horaires: [
     { jours: "Lun - Ven", heures: "9h00 - 18h00" },
