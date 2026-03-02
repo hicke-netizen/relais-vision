@@ -1,13 +1,13 @@
-// Configuration — Cabinet Relais Vision Athée-sur-Cher
+// Configuration — Cabinet Relais Vision Eperlecques
 // Généré automatiquement le 02/03/2026
 
 const siteConfig = {
-  ville: "Athée-sur-Cher",
-  codePostal: "37270",
-  region: "Centre-Val de Loire",
+  ville: "Eperlecques",
+  codePostal: "62910",
+  region: "Hauts-de-France",
 
-  praticienne: "Jimmy Devrand & Lauriane Mirault",
-  bioPraticienne: "Diplômée en orthoptie, Jimmy Devrand & Lauriane Mirault prend en charge les bilans visuels, le renouvellement d'ordonnances de lunettes et la rééducation orthoptique pour les enfants et adultes.",
+  praticienne: "Solenne LEDEIN",
+  bioPraticienne: "Diplômée en orthoptie, Solenne LEDEIN prend en charge les bilans visuels, le renouvellement d'ordonnances de lunettes et la rééducation orthoptique pour les enfants et adultes.",
   specialitesPraticienne: [
     "Neurovision",
     "Bilan visuel enfant",
@@ -32,14 +32,14 @@ const siteConfig = {
 
   medecin: "Dr. Sofiane Souissi",
 
-  adresseLigne1: "7 Rue De L'égalité",
-  adresseLigne2: "37270 Athée-sur-Cher",
+  adresseLigne1: "18 Rue De Bleue-Maison",
+  adresseLigne2: "62910 Eperlecques",
 
   telephone: "806110504",
   telephoneAffiche: "0 806 11 05 04",
-  email: "athee-sur-cher-37@relais-vision.fr",
+  email: "eperlecques-62@relais-vision.fr",
 
-  doctolibUrl: "https://www.doctolib.fr/cabinet-paramedical/athee-sur-cher/relais-vision-athee-sur-cher",
+  doctolibUrl: "https://www.doctolib.fr/cabinet-paramedical/eperlecques/relais-vision-eperlecques",
 
   horaires: [
     { jours: "Lun - Ven", heures: "9h00 - 18h00" },
