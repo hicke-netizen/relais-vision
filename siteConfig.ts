@@ -1,13 +1,13 @@
-// Configuration — Cabinet Relais Vision Saint-Quentin
+// Configuration — Cabinet Relais Vision Lorient
 // Généré automatiquement le 02/03/2026
 
 const siteConfig = {
-  ville: "Saint-Quentin",
-  codePostal: "2100",
-  region: "Hauts-de-France",
+  ville: "Lorient",
+  codePostal: "56100",
+  region: "Bretagne",
 
-  praticienne: "Perrine Normand / Priscille Levent",
-  bioPraticienne: "Diplômée en orthoptie, Perrine Normand / Priscille Levent prend en charge les bilans visuels, le renouvellement d'ordonnances de lunettes et la rééducation orthoptique pour les enfants et adultes.",
+  praticienne: "Noémie Flageul / Manon Marteau / Blanche Vaugier",
+  bioPraticienne: "Diplômée en orthoptie, Noémie Flageul / Manon Marteau / Blanche Vaugier prend en charge les bilans visuels, le renouvellement d'ordonnances de lunettes et la rééducation orthoptique pour les enfants et adultes.",
   specialitesPraticienne: [
     "Neurovision",
     "Bilan visuel enfant",
@@ -32,18 +32,19 @@ const siteConfig = {
 
   medecin: "Dr. Sofiane Souissi",
 
-  adresseLigne1: "36 Boulevard Henri Martin",
-  adresseLigne2: "02100 Saint-Quentin",
+  adresseLigne1: "5 Rue Simone Signoret",
+  adresseLigne2: "56100 Lorient",
 
   telephone: "806110504",
   telephoneAffiche: "0 806 11 05 04",
-  email: "saint-quentin-02@relais-vision.fr",
+  email: "lorient-56@relais-vision.fr",
 
-  doctolibUrl: "https://www.doctolib.fr/cabinet-paramedical/saint-quentin/relais-vision-saint-quentin",
+  doctolibUrl: "https://www.doctolib.fr/cabinet-paramedical/lorient/relais-vision-lorient",
 
   horaires: [
-    { jours: "Lun - Ven", heures: "8h30 - 18h30" },
-    { jours: "Sam - Dim", heures: "Fermé" }
+    { jours: "Lun - Ven", heures: "9h00 - 19h00" },
+    { jours: "Samedi", heures: "9h00 - 16h30" },
+    { jours: "Dimanche", heures: "Fermé" }
   ],
 
   photoDevanture:   "/images/devanture.webp",
