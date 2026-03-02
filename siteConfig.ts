@@ -1,13 +1,13 @@
-// Configuration — Cabinet Relais Vision Pessac
+// Configuration — Cabinet Relais Vision Pont-l'Evêque
 // Généré automatiquement le 02/03/2026
 
 const siteConfig = {
-  ville: "Pessac",
-  codePostal: "33600",
-  region: "Nouvelle-Aquitaine",
+  ville: "Pont-l'Evêque",
+  codePostal: "14130",
+  region: "Normandie",
 
-  praticienne: "Antoine Bazot",
-  bioPraticienne: "Diplômée en orthoptie, Antoine Bazot prend en charge les bilans visuels, le renouvellement d'ordonnances de lunettes et la rééducation orthoptique pour les enfants et adultes.",
+  praticienne: "Irène Boelen",
+  bioPraticienne: "Diplômée en orthoptie, Irène Boelen prend en charge les bilans visuels, le renouvellement d'ordonnances de lunettes et la rééducation orthoptique pour les enfants et adultes.",
   specialitesPraticienne: [
     "Neurovision",
     "Bilan visuel enfant",
@@ -32,14 +32,14 @@ const siteConfig = {
 
   medecin: "Dr. Sofiane Souissi",
 
-  adresseLigne1: "88 Avenue Pasteur",
-  adresseLigne2: "33600 Pessac",
+  adresseLigne1: "7 Rue Ménars",
+  adresseLigne2: "14130 Pont-l'Evêque",
 
   telephone: "806110504",
   telephoneAffiche: "0 806 11 05 04",
-  email: "pessac-33@relais-vision.fr",
+  email: "pont-leveque-14@relais-vision.fr",
 
-  doctolibUrl: "https://www.doctolib.fr/cabinet-paramedical/pessac/relais-vision-pessac",
+  doctolibUrl: "https://www.doctolib.fr/cabinet-paramedical/pont-leveque/relais-vision-pont-leveque",
 
   horaires: [
     { jours: "Lun - Ven", heures: "9h00 - 18h00" },
