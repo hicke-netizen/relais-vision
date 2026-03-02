@@ -1,13 +1,13 @@
-// Configuration — Cabinet Relais Vision Raismes
+// Configuration — Cabinet Relais Vision Thionville
 // Généré automatiquement le 02/03/2026
 
 const siteConfig = {
-  ville: "Raismes",
-  codePostal: "59590",
-  region: "Hauts-de-France",
+  ville: "Thionville",
+  codePostal: "57100",
+  region: "Grand Est",
 
-  praticienne: "Lilas Breda",
-  bioPraticienne: "Diplômée en orthoptie, Lilas Breda prend en charge les bilans visuels, le renouvellement d'ordonnances de lunettes et la rééducation orthoptique pour les enfants et adultes.",
+  praticienne: "Anne Feldmann",
+  bioPraticienne: "Diplômée en orthoptie, Anne Feldmann prend en charge les bilans visuels, le renouvellement d'ordonnances de lunettes et la rééducation orthoptique pour les enfants et adultes.",
   specialitesPraticienne: [
     "Neurovision",
     "Bilan visuel enfant",
@@ -32,14 +32,14 @@ const siteConfig = {
 
   medecin: "Dr. Sofiane Souissi",
 
-  adresseLigne1: "40 Rue Du Mont De Sable",
-  adresseLigne2: "59590 Raismes",
+  adresseLigne1: "10 Rue Saint-Nicolas",
+  adresseLigne2: "57100 Thionville",
 
   telephone: "806110504",
   telephoneAffiche: "0 806 11 05 04",
-  email: "raismes-59@relais-vision.fr",
+  email: "thionville-57@relais-vision.fr",
 
-  doctolibUrl: "https://www.doctolib.fr/cabinet-paramedical/raismes/relais-vision-raismes",
+  doctolibUrl: "https://www.doctolib.fr/cabinet-paramedical/thionville/relais-vision-thionville",
 
   horaires: [
     { jours: "Lun - Ven", heures: "9h00 - 18h00" },
