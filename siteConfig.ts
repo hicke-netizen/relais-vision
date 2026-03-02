@@ -1,13 +1,13 @@
-// Configuration — Cabinet Relais Vision Tassin-la-Demi-Lune
+// Configuration — Cabinet Relais Vision Le Bosc-du-Theil
 // Généré automatiquement le 02/03/2026
 
 const siteConfig = {
-  ville: "Tassin-la-Demi-Lune",
-  codePostal: "69160",
-  region: "Auvergne-Rhône-Alpes",
+  ville: "Le Bosc-du-Theil",
+  codePostal: "27310",
+  region: "Normandie",
 
-  praticienne: "Léa Gautreau",
-  bioPraticienne: "Diplômée en orthoptie, Léa Gautreau prend en charge les bilans visuels, le renouvellement d'ordonnances de lunettes et la rééducation orthoptique pour les enfants et adultes.",
+  praticienne: "Julie Dumont",
+  bioPraticienne: "Diplômée en orthoptie, Julie Dumont prend en charge les bilans visuels, le renouvellement d'ordonnances de lunettes et la rééducation orthoptique pour les enfants et adultes.",
   specialitesPraticienne: [
     "Neurovision",
     "Bilan visuel enfant",
@@ -32,14 +32,14 @@ const siteConfig = {
 
   medecin: "Dr. Sofiane Souissi",
 
-  adresseLigne1: "14 Rue Du Professeur Depéret",
-  adresseLigne2: "69160 Tassin-la-Demi-Lune",
+  adresseLigne1: "3 Place De L'église",
+  adresseLigne2: "27310 Le Bosc-du-Theil",
 
   telephone: "806110504",
   telephoneAffiche: "0 806 11 05 04",
-  email: "tassin-la-demi-lune-69@relais-vision.fr",
+  email: "le-bosc-du-theil-27@relais-vision.fr",
 
-  doctolibUrl: "https://www.doctolib.fr/cabinet-paramedical/tassin-la-demi-lune/relais-vision-tassin-la-demi-lune",
+  doctolibUrl: "https://www.doctolib.fr/cabinet-paramedical/le-bosc-du-theil/relais-vision-le-bosc-du-theil",
 
   horaires: [
     { jours: "Lun - Ven", heures: "9h00 - 18h00" },
