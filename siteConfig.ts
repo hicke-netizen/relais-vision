@@ -1,13 +1,13 @@
-// Configuration — Cabinet Relais Vision Vieux-Berquin
+// Configuration — Cabinet Relais Vision Noyelles-Godault
 // Généré automatiquement le 02/03/2026
 
 const siteConfig = {
-  ville: "Vieux-Berquin",
-  codePostal: "59232",
+  ville: "Noyelles-Godault",
+  codePostal: "62950",
   region: "Hauts-de-France",
 
-  praticienne: "Louise Asseman",
-  bioPraticienne: "Diplômée en orthoptie, Louise Asseman prend en charge les bilans visuels, le renouvellement d'ordonnances de lunettes et la rééducation orthoptique pour les enfants et adultes.",
+  praticienne: "Chloé Carlier",
+  bioPraticienne: "Diplômée en orthoptie, Chloé Carlier prend en charge les bilans visuels, le renouvellement d'ordonnances de lunettes et la rééducation orthoptique pour les enfants et adultes.",
   specialitesPraticienne: [
     "Neurovision",
     "Bilan visuel enfant",
@@ -32,14 +32,14 @@ const siteConfig = {
 
   medecin: "Dr. Sofiane Souissi",
 
-  adresseLigne1: "212 Zone Artisanale Des Champs De La Couronne",
-  adresseLigne2: "59232 Vieux-Berquin",
+  adresseLigne1: "7 Rue Anne Frank",
+  adresseLigne2: "62950 Noyelles-Godault",
 
   telephone: "806110504",
   telephoneAffiche: "0 806 11 05 04",
-  email: "vieux-berquin-59@relais-vision.fr",
+  email: "noyelles-godault-62@relais-vision.fr",
 
-  doctolibUrl: "https://www.doctolib.fr/cabinet-paramedical/vieux-berquin/relais-vision-vieux-berquin",
+  doctolibUrl: "https://www.doctolib.fr/cabinet-paramedical/noyelles-godault/relais-vision-noyelles-godault",
 
   horaires: [
     { jours: "Lun - Ven", heures: "9h00 - 18h00" },
