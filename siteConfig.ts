@@ -1,13 +1,13 @@
-// Configuration — Cabinet Relais Vision Le Havre
+// Configuration — Cabinet Relais Vision Pélissanne
 // Généré automatiquement le 02/03/2026
 
 const siteConfig = {
-  ville: "Le Havre",
-  codePostal: "76600",
-  region: "Normandie",
+  ville: "Pélissanne",
+  codePostal: "13330",
+  region: "Provence-Alpes-Côte d'Azur",
 
-  praticienne: "Adrien Boinet",
-  bioPraticienne: "Diplômée en orthoptie, Adrien Boinet prend en charge les bilans visuels, le renouvellement d'ordonnances de lunettes et la rééducation orthoptique pour les enfants et adultes.",
+  praticienne: "Clara Herbette",
+  bioPraticienne: "Diplômée en orthoptie, Clara Herbette prend en charge les bilans visuels, le renouvellement d'ordonnances de lunettes et la rééducation orthoptique pour les enfants et adultes.",
   specialitesPraticienne: [
     "Neurovision",
     "Bilan visuel enfant",
@@ -32,14 +32,14 @@ const siteConfig = {
 
   medecin: "Dr. Sofiane Souissi",
 
-  adresseLigne1: "55b Rue Gustave Flaubert",
-  adresseLigne2: "76600 Le Havre",
+  adresseLigne1: "4 Route De Saint Cannat",
+  adresseLigne2: "13330 Pélissanne",
 
   telephone: "806110504",
   telephoneAffiche: "0 806 11 05 04",
-  email: "le-havre-76@relais-vision.fr",
+  email: "pelissanne-13@relais-vision.fr",
 
-  doctolibUrl: "https://www.doctolib.fr/cabinet-paramedical/le-havre/relais-vision-le-havre",
+  doctolibUrl: "https://www.doctolib.fr/cabinet-paramedical/pelissanne/relais-vision-pelissanne",
 
   horaires: [
     { jours: "Lun - Ven", heures: "9h00 - 18h00" },
