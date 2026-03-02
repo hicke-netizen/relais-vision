@@ -1,13 +1,13 @@
-// Configuration — Cabinet Relais Vision Angoulême
+// Configuration — Cabinet Relais Vision Tassin-la-Demi-Lune
 // Généré automatiquement le 02/03/2026
 
 const siteConfig = {
-  ville: "Angoulême",
-  codePostal: "16000",
-  region: "Nouvelle-Aquitaine",
+  ville: "Tassin-la-Demi-Lune",
+  codePostal: "69160",
+  region: "Auvergne-Rhône-Alpes",
 
-  praticienne: "Marina Blanloeuil",
-  bioPraticienne: "Diplômée en orthoptie, Marina Blanloeuil prend en charge les bilans visuels, le renouvellement d'ordonnances de lunettes et la rééducation orthoptique pour les enfants et adultes.",
+  praticienne: "Léa Gautreau",
+  bioPraticienne: "Diplômée en orthoptie, Léa Gautreau prend en charge les bilans visuels, le renouvellement d'ordonnances de lunettes et la rééducation orthoptique pour les enfants et adultes.",
   specialitesPraticienne: [
     "Neurovision",
     "Bilan visuel enfant",
@@ -32,14 +32,14 @@ const siteConfig = {
 
   medecin: "Dr. Sofiane Souissi",
 
-  adresseLigne1: "89 Rue De Paris",
-  adresseLigne2: "16000 Angoulême",
+  adresseLigne1: "14 Rue Du Professeur Depéret",
+  adresseLigne2: "69160 Tassin-la-Demi-Lune",
 
   telephone: "806110504",
   telephoneAffiche: "0 806 11 05 04",
-  email: "angouleme-16@relais-vision.fr",
+  email: "tassin-la-demi-lune-69@relais-vision.fr",
 
-  doctolibUrl: "https://www.doctolib.fr/cabinet-paramedical/angouleme/relais-vision-angouleme",
+  doctolibUrl: "https://www.doctolib.fr/cabinet-paramedical/tassin-la-demi-lune/relais-vision-tassin-la-demi-lune",
 
   horaires: [
     { jours: "Lun - Ven", heures: "9h00 - 18h00" },
