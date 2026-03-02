@@ -1,13 +1,13 @@
-// Configuration — Cabinet Relais Vision Saint-Pol-sur-Ternoise
+// Configuration — Cabinet Relais Vision Athée-sur-Cher
 // Généré automatiquement le 02/03/2026
 
 const siteConfig = {
-  ville: "Saint-Pol-sur-Ternoise",
-  codePostal: "62130",
-  region: "Hauts-de-France",
+  ville: "Athée-sur-Cher",
+  codePostal: "37270",
+  region: "Centre-Val de Loire",
 
-  praticienne: "Jeanne Laforce",
-  bioPraticienne: "Diplômée en orthoptie, Jeanne Laforce prend en charge les bilans visuels, le renouvellement d'ordonnances de lunettes et la rééducation orthoptique pour les enfants et adultes.",
+  praticienne: "Jimmy Devrand & Lauriane Mirault",
+  bioPraticienne: "Diplômée en orthoptie, Jimmy Devrand & Lauriane Mirault prend en charge les bilans visuels, le renouvellement d'ordonnances de lunettes et la rééducation orthoptique pour les enfants et adultes.",
   specialitesPraticienne: [
     "Neurovision",
     "Bilan visuel enfant",
@@ -32,14 +32,14 @@ const siteConfig = {
 
   medecin: "Dr. Sofiane Souissi",
 
-  adresseLigne1: "176 Rue D'hesdin",
-  adresseLigne2: "62130 Saint-Pol-sur-Ternoise",
+  adresseLigne1: "7 Rue De L'égalité",
+  adresseLigne2: "37270 Athée-sur-Cher",
 
   telephone: "806110504",
   telephoneAffiche: "0 806 11 05 04",
-  email: "saint-pol-sur-ternoise-62@relais-vision.fr",
+  email: "athee-sur-cher-37@relais-vision.fr",
 
-  doctolibUrl: "https://www.doctolib.fr/cabinet-paramedical/saint-pol-sur-ternoise/relais-vision-saint-pol-sur-ternoise",
+  doctolibUrl: "https://www.doctolib.fr/cabinet-paramedical/athee-sur-cher/relais-vision-athee-sur-cher",
 
   horaires: [
     { jours: "Lun - Ven", heures: "9h00 - 18h00" },
