@@ -1,13 +1,13 @@
-// Configuration — Cabinet Relais Vision Burlats
+// Configuration — Cabinet Relais Vision Auray
 // Généré automatiquement le 02/03/2026
 
 const siteConfig = {
-  ville: "Burlats",
-  codePostal: "81100",
-  region: "Occitanie",
+  ville: "Auray",
+  codePostal: "56400",
+  region: "Bretagne",
 
-  praticienne: "Charlotte Membrives",
-  bioPraticienne: "Diplômée en orthoptie, Charlotte Membrives prend en charge les bilans visuels, le renouvellement d'ordonnances de lunettes et la rééducation orthoptique pour les enfants et adultes.",
+  praticienne: "Mathieu Combellas",
+  bioPraticienne: "Diplômée en orthoptie, Mathieu Combellas prend en charge les bilans visuels, le renouvellement d'ordonnances de lunettes et la rééducation orthoptique pour les enfants et adultes.",
   specialitesPraticienne: [
     "Neurovision",
     "Bilan visuel enfant",
@@ -32,14 +32,14 @@ const siteConfig = {
 
   medecin: "Dr. Sofiane Souissi",
 
-  adresseLigne1: "27 Avenue Du Sidobre",
-  adresseLigne2: "81100 Burlats",
+  adresseLigne1: "2 Rue de Suède",
+  adresseLigne2: "56400 Auray",
 
   telephone: "806110504",
   telephoneAffiche: "0 806 11 05 04",
-  email: "burlats-81@relais-vision.fr",
+  email: "auray-56@relais-vision.fr",
 
-  doctolibUrl: "https://www.doctolib.fr/cabinet-paramedical/burlats/relais-vision-burlats",
+  doctolibUrl: "https://www.doctolib.fr/cabinet-paramedical/auray/relais-vision-auray",
 
   horaires: [
     { jours: "Lun - Ven", heures: "9h00 - 18h00" },
