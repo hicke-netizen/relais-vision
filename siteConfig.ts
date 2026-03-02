@@ -1,13 +1,13 @@
-// Configuration — Cabinet Relais Vision Ars-Laquenexy
+// Configuration — Cabinet Relais Vision Saint-Quentin
 // Généré automatiquement le 02/03/2026
 
 const siteConfig = {
-  ville: "Ars-Laquenexy",
-  codePostal: "57530",
-  region: "Grand Est",
+  ville: "Saint-Quentin",
+  codePostal: "2100",
+  region: "Hauts-de-France",
 
-  praticienne: "Alix Lamielle",
-  bioPraticienne: "Diplômée en orthoptie, Alix Lamielle prend en charge les bilans visuels, le renouvellement d'ordonnances de lunettes et la rééducation orthoptique pour les enfants et adultes.",
+  praticienne: "Perrine Normand / Priscille Levent",
+  bioPraticienne: "Diplômée en orthoptie, Perrine Normand / Priscille Levent prend en charge les bilans visuels, le renouvellement d'ordonnances de lunettes et la rééducation orthoptique pour les enfants et adultes.",
   specialitesPraticienne: [
     "Neurovision",
     "Bilan visuel enfant",
@@ -32,18 +32,18 @@ const siteConfig = {
 
   medecin: "Dr. Sofiane Souissi",
 
-  adresseLigne1: "2A Rue du Jardin d'Ecosse",
-  adresseLigne2: "57530 Ars-Laquenexy",
+  adresseLigne1: "36 Boulevard Henri Martin",
+  adresseLigne2: "02100 Saint-Quentin",
 
-  telephone: "387767253",
-  telephoneAffiche: "03 87 76 72 53",
-  email: "ars-laquenexy-57@relais-vision.fr",
+  telephone: "806110504",
+  telephoneAffiche: "0 806 11 05 04",
+  email: "saint-quentin-02@relais-vision.fr",
 
-  doctolibUrl: "https://www.doctolib.fr/cabinet-paramedical/ars-laquenexy/relais-vision-ars-laquenexy",
+  doctolibUrl: "https://www.doctolib.fr/cabinet-paramedical/saint-quentin/relais-vision-saint-quentin",
 
   horaires: [
-    { jours: "Lun / Mar / Jeu / Ven", heures: "8h30 - 12h30 / 13h30 - 18h00" },
-    { jours: "Mer / Sam / Dim", heures: "Fermé" }
+    { jours: "Lun - Ven", heures: "8h30 - 18h30" },
+    { jours: "Sam - Dim", heures: "Fermé" }
   ],
 
   photoDevanture:   "/images/devanture.webp",
