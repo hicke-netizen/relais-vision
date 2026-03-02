@@ -1,13 +1,13 @@
-// Configuration — Cabinet Relais Vision Le Bosc-du-Theil
+// Configuration — Cabinet Relais Vision Montbéliard
 // Généré automatiquement le 02/03/2026
 
 const siteConfig = {
-  ville: "Le Bosc-du-Theil",
-  codePostal: "27310",
-  region: "Normandie",
+  ville: "Montbéliard",
+  codePostal: "25200",
+  region: "Bourgogne-Franche-Comté",
 
-  praticienne: "Julie Dumont",
-  bioPraticienne: "Diplômée en orthoptie, Julie Dumont prend en charge les bilans visuels, le renouvellement d'ordonnances de lunettes et la rééducation orthoptique pour les enfants et adultes.",
+  praticienne: "Chloé Thourot",
+  bioPraticienne: "Diplômée en orthoptie, Chloé Thourot prend en charge les bilans visuels, le renouvellement d'ordonnances de lunettes et la rééducation orthoptique pour les enfants et adultes.",
   specialitesPraticienne: [
     "Neurovision",
     "Bilan visuel enfant",
@@ -32,14 +32,14 @@ const siteConfig = {
 
   medecin: "Dr. Sofiane Souissi",
 
-  adresseLigne1: "3 Place De L'église",
-  adresseLigne2: "27310 Le Bosc-du-Theil",
+  adresseLigne1: "Rue André Boulloche",
+  adresseLigne2: "25200 Montbéliard",
 
   telephone: "806110504",
   telephoneAffiche: "0 806 11 05 04",
-  email: "le-bosc-du-theil-27@relais-vision.fr",
+  email: "montbeliard-25@relais-vision.fr",
 
-  doctolibUrl: "https://www.doctolib.fr/cabinet-paramedical/le-bosc-du-theil/relais-vision-le-bosc-du-theil",
+  doctolibUrl: "https://www.doctolib.fr/cabinet-paramedical/montbeliard/relais-vision-montbeliard",
 
   horaires: [
     { jours: "Lun - Ven", heures: "9h00 - 18h00" },
