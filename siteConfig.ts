@@ -1,13 +1,13 @@
-// Configuration — Cabinet Relais Vision La Chapelle-des-Marais
+// Configuration — Cabinet Relais Vision Nouzilly
 // Généré automatiquement le 02/03/2026
 
 const siteConfig = {
-  ville: "La Chapelle-des-Marais",
-  codePostal: "44410",
-  region: "Pays de la Loire",
+  ville: "Nouzilly",
+  codePostal: "37380",
+  region: "Centre-Val de Loire",
 
-  praticienne: "Adeline Oblin",
-  bioPraticienne: "Diplômée en orthoptie, Adeline Oblin prend en charge les bilans visuels, le renouvellement d'ordonnances de lunettes et la rééducation orthoptique pour les enfants et adultes.",
+  praticienne: "Mathilde Dehaudt",
+  bioPraticienne: "Diplômée en orthoptie, Mathilde Dehaudt prend en charge les bilans visuels, le renouvellement d'ordonnances de lunettes et la rééducation orthoptique pour les enfants et adultes.",
   specialitesPraticienne: [
     "Neurovision",
     "Bilan visuel enfant",
@@ -32,14 +32,14 @@ const siteConfig = {
 
   medecin: "Dr. Sofiane Souissi",
 
-  adresseLigne1: "1 Allée Des Roseaux",
-  adresseLigne2: "44410 La Chapelle-des-Marais",
+  adresseLigne1: "19 Rue Paul Boivinet",
+  adresseLigne2: "37380 Nouzilly",
 
   telephone: "806110504",
   telephoneAffiche: "0 806 11 05 04",
-  email: "la-chapelle-des-marais-44@relais-vision.fr",
+  email: "nouzilly-37@relais-vision.fr",
 
-  doctolibUrl: "https://www.doctolib.fr/cabinet-paramedical/la-chapelle-des-marais/relais-vision-la-chapelle-des-marais",
+  doctolibUrl: "https://www.doctolib.fr/cabinet-paramedical/nouzilly/relais-vision-nouzilly",
 
   horaires: [
     { jours: "Lun - Ven", heures: "9h00 - 18h00" },
