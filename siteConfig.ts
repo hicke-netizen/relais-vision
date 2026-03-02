@@ -1,13 +1,13 @@
-// Configuration — Cabinet Relais Vision Halluin
+// Configuration — Cabinet Relais Vision Raismes
 // Généré automatiquement le 02/03/2026
 
 const siteConfig = {
-  ville: "Halluin",
-  codePostal: "59250",
+  ville: "Raismes",
+  codePostal: "59590",
   region: "Hauts-de-France",
 
-  praticienne: "Katy Pirog",
-  bioPraticienne: "Diplômée en orthoptie, Katy Pirog prend en charge les bilans visuels, le renouvellement d'ordonnances de lunettes et la rééducation orthoptique pour les enfants et adultes.",
+  praticienne: "Lilas Breda",
+  bioPraticienne: "Diplômée en orthoptie, Lilas Breda prend en charge les bilans visuels, le renouvellement d'ordonnances de lunettes et la rééducation orthoptique pour les enfants et adultes.",
   specialitesPraticienne: [
     "Neurovision",
     "Bilan visuel enfant",
@@ -32,14 +32,14 @@ const siteConfig = {
 
   medecin: "Dr. Sofiane Souissi",
 
-  adresseLigne1: "7 Chemin De Tournai",
-  adresseLigne2: "59250 Halluin",
+  adresseLigne1: "40 Rue Du Mont De Sable",
+  adresseLigne2: "59590 Raismes",
 
   telephone: "806110504",
   telephoneAffiche: "0 806 11 05 04",
-  email: "halluin-59@relais-vision.fr",
+  email: "raismes-59@relais-vision.fr",
 
-  doctolibUrl: "https://www.doctolib.fr/cabinet-paramedical/halluin/relais-vision-halluin",
+  doctolibUrl: "https://www.doctolib.fr/cabinet-paramedical/raismes/relais-vision-raismes",
 
   horaires: [
     { jours: "Lun - Ven", heures: "9h00 - 18h00" },
