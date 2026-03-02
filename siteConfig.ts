@@ -1,13 +1,13 @@
-// Configuration — Cabinet Relais Vision Berck
+// Configuration — Cabinet Relais Vision Boulazac
 // Généré automatiquement le 02/03/2026
 
 const siteConfig = {
-  ville: "Berck",
-  codePostal: "62600",
-  region: "Hauts-de-France",
+  ville: "Boulazac",
+  codePostal: "24750",
+  region: "Nouvelle-Aquitaine",
 
-  praticienne: "Marie Perwez / Pauline Roussel",
-  bioPraticienne: "Diplômée en orthoptie, Marie Perwez / Pauline Roussel prend en charge les bilans visuels, le renouvellement d'ordonnances de lunettes et la rééducation orthoptique pour les enfants et adultes.",
+  praticienne: "Djoha Kihal",
+  bioPraticienne: "Diplômée en orthoptie, Djoha Kihal prend en charge les bilans visuels, le renouvellement d'ordonnances de lunettes et la rééducation orthoptique pour les enfants et adultes.",
   specialitesPraticienne: [
     "Neurovision",
     "Bilan visuel enfant",
@@ -32,14 +32,14 @@ const siteConfig = {
 
   medecin: "Dr. Sofiane Souissi",
 
-  adresseLigne1: "3 Avenue Du 8 Mai 1945",
-  adresseLigne2: "62600 Berck",
+  adresseLigne1: "1 Rue de Soci",
+  adresseLigne2: "24750 Boulazac",
 
   telephone: "806110504",
   telephoneAffiche: "0 806 11 05 04",
-  email: "berck-62@relais-vision.fr",
+  email: "boulazac-24@relais-vision.fr",
 
-  doctolibUrl: "https://www.doctolib.fr/cabinet-paramedical/berck/relais-vision-berck",
+  doctolibUrl: "https://www.doctolib.fr/cabinet-paramedical/boulazac/relais-vision-boulazac",
 
   horaires: [
     { jours: "Lun - Ven", heures: "9h00 - 18h00" },
