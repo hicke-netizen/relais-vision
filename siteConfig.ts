@@ -1,13 +1,13 @@
-// Configuration — Cabinet Relais Vision Noeux-les-Mines
+// Configuration — Cabinet Relais Vision Bayon
 // Généré automatiquement le 02/03/2026
 
 const siteConfig = {
-  ville: "Noeux-les-Mines",
-  codePostal: "62290",
-  region: "Hauts-de-France",
+  ville: "Bayon",
+  codePostal: "54290",
+  region: "Grand Est",
 
-  praticienne: "Juliette Louchar",
-  bioPraticienne: "Diplômée en orthoptie, Juliette Louchar prend en charge les bilans visuels, le renouvellement d'ordonnances de lunettes et la rééducation orthoptique pour les enfants et adultes.",
+  praticienne: "Alexia Alvarez",
+  bioPraticienne: "Diplômée en orthoptie, Alexia Alvarez prend en charge les bilans visuels, le renouvellement d'ordonnances de lunettes et la rééducation orthoptique pour les enfants et adultes.",
   specialitesPraticienne: [
     "Neurovision",
     "Bilan visuel enfant",
@@ -32,14 +32,14 @@ const siteConfig = {
 
   medecin: "Dr. Sofiane Souissi",
 
-  adresseLigne1: "89 Rue Nationale",
-  adresseLigne2: "62290 Noeux-les-Mines",
+  adresseLigne1: "4 Rue De Maizerai",
+  adresseLigne2: "54290 Bayon",
 
   telephone: "806110504",
   telephoneAffiche: "0 806 11 05 04",
-  email: "noeux-les-mines-62@relais-vision.fr",
+  email: "bayon-54@relais-vision.fr",
 
-  doctolibUrl: "https://www.doctolib.fr/cabinet-paramedical/noeux-les-mines/relais-vision-noeux-les-mines",
+  doctolibUrl: "https://www.doctolib.fr/cabinet-paramedical/bayon/relais-vision-bayon",
 
   horaires: [
     { jours: "Lun - Ven", heures: "9h00 - 18h00" },
