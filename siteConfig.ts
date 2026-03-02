@@ -1,13 +1,13 @@
-// Configuration — Cabinet Relais Vision L'Isle-d'Abeau
+// Configuration — Cabinet Relais Vision Saint-Didier-au-Mont-d'Or
 // Généré automatiquement le 02/03/2026
 
 const siteConfig = {
-  ville: "L'Isle-d'Abeau",
-  codePostal: "38080",
+  ville: "Saint-Didier-au-Mont-d'Or",
+  codePostal: "69370",
   region: "Auvergne-Rhône-Alpes",
 
-  praticienne: "Yannick Dhien",
-  bioPraticienne: "Diplômée en orthoptie, Yannick Dhien prend en charge les bilans visuels, le renouvellement d'ordonnances de lunettes et la rééducation orthoptique pour les enfants et adultes.",
+  praticienne: "Quitterie Vaganay",
+  bioPraticienne: "Diplômée en orthoptie, Quitterie Vaganay prend en charge les bilans visuels, le renouvellement d'ordonnances de lunettes et la rééducation orthoptique pour les enfants et adultes.",
   specialitesPraticienne: [
     "Neurovision",
     "Bilan visuel enfant",
@@ -32,14 +32,14 @@ const siteConfig = {
 
   medecin: "Dr. Sofiane Souissi",
 
-  adresseLigne1: "1 Rue de l'Hôtel de ville",
-  adresseLigne2: "38080 L'Isle-d'Abeau",
+  adresseLigne1: "6 Rue du Vallon d'Or",
+  adresseLigne2: "69370 Saint-Didier-au-Mont-d'Or",
 
   telephone: "806110504",
   telephoneAffiche: "0 806 11 05 04",
-  email: "l-isle-d-abeau-38@relais-vision.fr",
+  email: "saint-didier-au-mont-dor-69@relais-vision.fr",
 
-  doctolibUrl: "https://www.doctolib.fr/cabinet-paramedical/l-isle-d-abeau/relais-vision-l-isle-d-abeau",
+  doctolibUrl: "https://www.doctolib.fr/cabinet-paramedical/saint-didier-au-mont-dor/relais-vision-saint-didier-au-mont-dor",
 
   horaires: [
     { jours: "Lun - Ven", heures: "9h00 - 18h00" },
