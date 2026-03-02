@@ -1,13 +1,13 @@
-// Configuration — Cabinet Relais Vision Crépy-en-Valois
+// Configuration — Cabinet Relais Vision Cambrai
 // Généré automatiquement le 02/03/2026
 
 const siteConfig = {
-  ville: "Crépy-en-Valois",
-  codePostal: "60800",
+  ville: "Cambrai",
+  codePostal: "59400",
   region: "Hauts-de-France",
 
-  praticienne: "Laurette Raulot",
-  bioPraticienne: "Diplômée en orthoptie, Laurette Raulot prend en charge les bilans visuels, le renouvellement d'ordonnances de lunettes et la rééducation orthoptique pour les enfants et adultes.",
+  praticienne: "Benjamin Flinois",
+  bioPraticienne: "Diplômée en orthoptie, Benjamin Flinois prend en charge les bilans visuels, le renouvellement d'ordonnances de lunettes et la rééducation orthoptique pour les enfants et adultes.",
   specialitesPraticienne: [
     "Neurovision",
     "Bilan visuel enfant",
@@ -32,14 +32,14 @@ const siteConfig = {
 
   medecin: "Dr. Sofiane Souissi",
 
-  adresseLigne1: "Rue Tassart",
-  adresseLigne2: "60800 Crépy-en-Valois",
+  adresseLigne1: "39 Rue Des Chaudronniers",
+  adresseLigne2: "59400 Cambrai",
 
   telephone: "806110504",
   telephoneAffiche: "0 806 11 05 04",
-  email: "crepy-en-valois-60@relais-vision.fr",
+  email: "cambrai-59@relais-vision.fr",
 
-  doctolibUrl: "https://www.doctolib.fr/cabinet-paramedical/crepy-en-valois/relais-vision-crepy-en-valois",
+  doctolibUrl: "https://www.doctolib.fr/cabinet-paramedical/cambrai/relais-vision-cambrai",
 
   horaires: [
     { jours: "Lun - Ven", heures: "9h00 - 18h00" },
