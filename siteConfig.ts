@@ -1,13 +1,13 @@
-// Configuration — Cabinet Relais Vision La Rivière-Saint-Louis
+// Configuration — Cabinet Relais Vision Aix-Noulette
 // Généré automatiquement le 02/03/2026
 
 const siteConfig = {
-  ville: "La Rivière-Saint-Louis",
-  codePostal: "97450",
-  region: "La Réunion",
+  ville: "Aix-Noulette",
+  codePostal: "62160",
+  region: "Hauts-de-France",
 
-  praticienne: "Eric Karoutchi, Agnès Baillif ou Juliette Istria",
-  bioPraticienne: "Diplômée en orthoptie, Eric Karoutchi, Agnès Baillif ou Juliette Istria prend en charge les bilans visuels, le renouvellement d'ordonnances de lunettes et la rééducation orthoptique pour les enfants et adultes.",
+  praticienne: "Perrine Fleurant",
+  bioPraticienne: "Diplômée en orthoptie, Perrine Fleurant prend en charge les bilans visuels, le renouvellement d'ordonnances de lunettes et la rééducation orthoptique pour les enfants et adultes.",
   specialitesPraticienne: [
     "Neurovision",
     "Bilan visuel enfant",
@@ -32,14 +32,14 @@ const siteConfig = {
 
   medecin: "Dr. Sofiane Souissi",
 
-  adresseLigne1: "125 Route De Cilaos",
-  adresseLigne2: "97450 La Rivière-Saint-Louis",
+  adresseLigne1: "22 Rue Piltepois",
+  adresseLigne2: "62160 Aix-Noulette",
 
   telephone: "806110504",
   telephoneAffiche: "0 806 11 05 04",
-  email: "la-riviere-saint-louis-974@relais-vision.fr",
+  email: "aix-noulette-62@relais-vision.fr",
 
-  doctolibUrl: "https://www.doctolib.fr/cabinet-paramedical/la-riviere-saint-louis/relais-vision-la-riviere-saint-louis",
+  doctolibUrl: "https://www.doctolib.fr/cabinet-paramedical/aix-noulette/relais-vision-aix-noulette",
 
   horaires: [
     { jours: "Lun - Ven", heures: "9h00 - 18h00" },
