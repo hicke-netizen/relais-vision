@@ -1,13 +1,13 @@
-// Configuration — Cabinet Relais Vision Bruyères
+// Configuration — Cabinet Relais Vision Vonnas
 // Généré automatiquement le 02/03/2026
 
 const siteConfig = {
-  ville: "Bruyères",
-  codePostal: "88600",
-  region: "Grand Est",
+  ville: "Vonnas",
+  codePostal: "1540",
+  region: "Auvergne-Rhône-Alpes",
 
-  praticienne: "Laura Formisi",
-  bioPraticienne: "Diplômée en orthoptie, Laura Formisi prend en charge les bilans visuels, le renouvellement d'ordonnances de lunettes et la rééducation orthoptique pour les enfants et adultes.",
+  praticienne: "Lysiane Rat",
+  bioPraticienne: "Diplômée en orthoptie, Lysiane Rat prend en charge les bilans visuels, le renouvellement d'ordonnances de lunettes et la rééducation orthoptique pour les enfants et adultes.",
   specialitesPraticienne: [
     "Neurovision",
     "Bilan visuel enfant",
@@ -32,14 +32,14 @@ const siteConfig = {
 
   medecin: "Dr. Sofiane Souissi",
 
-  adresseLigne1: "8 Rue de Gérardmer",
-  adresseLigne2: "88600 Bruyères",
+  adresseLigne1: "107 Rue du 19 Mars 1962",
+  adresseLigne2: "01540 Vonnas",
 
   telephone: "806110504",
   telephoneAffiche: "0 806 11 05 04",
-  email: "bruyeres-88@relais-vision.fr",
+  email: "vonnas-01@relais-vision.fr",
 
-  doctolibUrl: "https://www.doctolib.fr/cabinet-paramedical/bruyeres/relais-vision-bruyeres",
+  doctolibUrl: "https://www.doctolib.fr/cabinet-paramedical/vonnas/relais-vision-vonnas",
 
   horaires: [
     { jours: "Lun - Ven", heures: "9h00 - 18h00" },
