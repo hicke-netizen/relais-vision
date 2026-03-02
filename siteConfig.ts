@@ -1,13 +1,13 @@
-// Configuration — Cabinet Relais Vision Pont-l'Evêque
+// Configuration — Cabinet Relais Vision Verfeil
 // Généré automatiquement le 02/03/2026
 
 const siteConfig = {
-  ville: "Pont-l'Evêque",
-  codePostal: "14130",
-  region: "Normandie",
+  ville: "Verfeil",
+  codePostal: "31590",
+  region: "Occitanie",
 
-  praticienne: "Irène Boelen",
-  bioPraticienne: "Diplômée en orthoptie, Irène Boelen prend en charge les bilans visuels, le renouvellement d'ordonnances de lunettes et la rééducation orthoptique pour les enfants et adultes.",
+  praticienne: "Caroline Ferrié",
+  bioPraticienne: "Diplômée en orthoptie, Caroline Ferrié prend en charge les bilans visuels, le renouvellement d'ordonnances de lunettes et la rééducation orthoptique pour les enfants et adultes.",
   specialitesPraticienne: [
     "Neurovision",
     "Bilan visuel enfant",
@@ -32,14 +32,14 @@ const siteConfig = {
 
   medecin: "Dr. Sofiane Souissi",
 
-  adresseLigne1: "7 Rue Ménars",
-  adresseLigne2: "14130 Pont-l'Evêque",
+  adresseLigne1: "23 Avenue Grand Faubourg",
+  adresseLigne2: "31590 Verfeil",
 
   telephone: "806110504",
   telephoneAffiche: "0 806 11 05 04",
-  email: "pont-leveque-14@relais-vision.fr",
+  email: "verfeil-31@relais-vision.fr",
 
-  doctolibUrl: "https://www.doctolib.fr/cabinet-paramedical/pont-leveque/relais-vision-pont-leveque",
+  doctolibUrl: "https://www.doctolib.fr/cabinet-paramedical/verfeil/relais-vision-verfeil",
 
   horaires: [
     { jours: "Lun - Ven", heures: "9h00 - 18h00" },
