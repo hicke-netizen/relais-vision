@@ -1,13 +1,13 @@
-// Configuration — Cabinet Relais Vision Orthez
+// Configuration — Cabinet Relais Vision Martres-de-Veyre
 // Généré automatiquement le 02/03/2026
 
 const siteConfig = {
-  ville: "Orthez",
-  codePostal: "64300",
-  region: "Nouvelle-Aquitaine",
+  ville: "Martres-de-Veyre",
+  codePostal: "63730",
+  region: "Auvergne-Rhône-Alpes",
 
-  praticienne: "Aurélien Le Galliard",
-  bioPraticienne: "Diplômée en orthoptie, Aurélien Le Galliard prend en charge les bilans visuels, le renouvellement d'ordonnances de lunettes et la rééducation orthoptique pour les enfants et adultes.",
+  praticienne: "Camille Muetton",
+  bioPraticienne: "Diplômée en orthoptie, Camille Muetton prend en charge les bilans visuels, le renouvellement d'ordonnances de lunettes et la rééducation orthoptique pour les enfants et adultes.",
   specialitesPraticienne: [
     "Neurovision",
     "Bilan visuel enfant",
@@ -32,14 +32,14 @@ const siteConfig = {
 
   medecin: "Dr. Sofiane Souissi",
 
-  adresseLigne1: "2b Avenue Du Président Kennedy",
-  adresseLigne2: "64300 Orthez",
+  adresseLigne1: "20 Rue Du Grand Clos",
+  adresseLigne2: "63730 Martres-de-Veyre",
 
   telephone: "806110504",
   telephoneAffiche: "0 806 11 05 04",
-  email: "orthez-64@relais-vision.fr",
+  email: "martres-de-veyre-63@relais-vision.fr",
 
-  doctolibUrl: "https://www.doctolib.fr/cabinet-paramedical/orthez/relais-vision-orthez",
+  doctolibUrl: "https://www.doctolib.fr/cabinet-paramedical/martres-de-veyre/relais-vision-martres-de-veyre",
 
   horaires: [
     { jours: "Lun - Ven", heures: "9h00 - 18h00" },
