@@ -1,13 +1,13 @@
-// Configuration — Cabinet Relais Vision Soubise
+// Configuration — Cabinet Relais Vision La Rivière-Saint-Louis
 // Généré automatiquement le 02/03/2026
 
 const siteConfig = {
-  ville: "Soubise",
-  codePostal: "17780",
-  region: "Nouvelle-Aquitaine",
+  ville: "La Rivière-Saint-Louis",
+  codePostal: "97450",
+  region: "La Réunion",
 
-  praticienne: "Estelle Grutus",
-  bioPraticienne: "Diplômée en orthoptie, Estelle Grutus prend en charge les bilans visuels, le renouvellement d'ordonnances de lunettes et la rééducation orthoptique pour les enfants et adultes.",
+  praticienne: "Eric Karoutchi, Agnès Baillif ou Juliette Istria",
+  bioPraticienne: "Diplômée en orthoptie, Eric Karoutchi, Agnès Baillif ou Juliette Istria prend en charge les bilans visuels, le renouvellement d'ordonnances de lunettes et la rééducation orthoptique pour les enfants et adultes.",
   specialitesPraticienne: [
     "Neurovision",
     "Bilan visuel enfant",
@@ -32,14 +32,14 @@ const siteConfig = {
 
   medecin: "Dr. Sofiane Souissi",
 
-  adresseLigne1: "10 Avenue Charles De Gaulle",
-  adresseLigne2: "17780 Soubise",
+  adresseLigne1: "125 Route De Cilaos",
+  adresseLigne2: "97450 La Rivière-Saint-Louis",
 
   telephone: "806110504",
   telephoneAffiche: "0 806 11 05 04",
-  email: "soubise-17@relais-vision.fr",
+  email: "la-riviere-saint-louis-974@relais-vision.fr",
 
-  doctolibUrl: "https://www.doctolib.fr/cabinet-paramedical/soubise/relais-vision-soubise",
+  doctolibUrl: "https://www.doctolib.fr/cabinet-paramedical/la-riviere-saint-louis/relais-vision-la-riviere-saint-louis",
 
   horaires: [
     { jours: "Lun - Ven", heures: "9h00 - 18h00" },
