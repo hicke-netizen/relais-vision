@@ -1,13 +1,13 @@
-// Configuration — Cabinet Relais Vision Plouarzel
+// Configuration — Cabinet Relais Vision Noeux-les-Mines
 // Généré automatiquement le 02/03/2026
 
 const siteConfig = {
-  ville: "Plouarzel",
-  codePostal: "29810",
-  region: "Bretagne",
+  ville: "Noeux-les-Mines",
+  codePostal: "62290",
+  region: "Hauts-de-France",
 
-  praticienne: "Maud Lassau",
-  bioPraticienne: "Diplômée en orthoptie, Maud Lassau prend en charge les bilans visuels, le renouvellement d'ordonnances de lunettes et la rééducation orthoptique pour les enfants et adultes.",
+  praticienne: "Juliette Louchar",
+  bioPraticienne: "Diplômée en orthoptie, Juliette Louchar prend en charge les bilans visuels, le renouvellement d'ordonnances de lunettes et la rééducation orthoptique pour les enfants et adultes.",
   specialitesPraticienne: [
     "Neurovision",
     "Bilan visuel enfant",
@@ -32,14 +32,14 @@ const siteConfig = {
 
   medecin: "Dr. Sofiane Souissi",
 
-  adresseLigne1: "Rue De Prat Arzel",
-  adresseLigne2: "29810 Plouarzel",
+  adresseLigne1: "89 Rue Nationale",
+  adresseLigne2: "62290 Noeux-les-Mines",
 
   telephone: "806110504",
   telephoneAffiche: "0 806 11 05 04",
-  email: "plouarzel-29@relais-vision.fr",
+  email: "noeux-les-mines-62@relais-vision.fr",
 
-  doctolibUrl: "https://www.doctolib.fr/cabinet-paramedical/plouarzel/relais-vision-plouarzel",
+  doctolibUrl: "https://www.doctolib.fr/cabinet-paramedical/noeux-les-mines/relais-vision-noeux-les-mines",
 
   horaires: [
     { jours: "Lun - Ven", heures: "9h00 - 18h00" },
