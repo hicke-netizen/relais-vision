@@ -1,13 +1,13 @@
-// Configuration — Cabinet Relais Vision Cahors
+// Configuration — Cabinet Relais Vision Beaune
 // Généré automatiquement le 02/03/2026
 
 const siteConfig = {
-  ville: "Cahors",
-  codePostal: "46000",
-  region: "Occitanie",
+  ville: "Beaune",
+  codePostal: "21200",
+  region: "Bourgogne-Franche-Comté",
 
-  praticienne: "Lucas Bodot",
-  bioPraticienne: "Diplômée en orthoptie, Lucas Bodot prend en charge les bilans visuels, le renouvellement d'ordonnances de lunettes et la rééducation orthoptique pour les enfants et adultes.",
+  praticienne: "Ikrame Izmar",
+  bioPraticienne: "Diplômée en orthoptie, Ikrame Izmar prend en charge les bilans visuels, le renouvellement d'ordonnances de lunettes et la rééducation orthoptique pour les enfants et adultes.",
   specialitesPraticienne: [
     "Neurovision",
     "Bilan visuel enfant",
@@ -32,14 +32,14 @@ const siteConfig = {
 
   medecin: "Dr. Sofiane Souissi",
 
-  adresseLigne1: "350 Route De Cahors",
-  adresseLigne2: "46000 Cahors",
+  adresseLigne1: "1 Route De Verdun",
+  adresseLigne2: "21200 Beaune",
 
   telephone: "806110504",
   telephoneAffiche: "0 806 11 05 04",
-  email: "cahors-46@relais-vision.fr",
+  email: "beaune-21@relais-vision.fr",
 
-  doctolibUrl: "https://www.doctolib.fr/cabinet-paramedical/cahors/relais-vision-cahors",
+  doctolibUrl: "https://www.doctolib.fr/cabinet-paramedical/beaune/relais-vision-beaune",
 
   horaires: [
     { jours: "Lun - Ven", heures: "9h00 - 18h00" },
