@@ -1,13 +1,13 @@
-// Configuration — Cabinet Relais Vision Saint-Sever
+// Configuration — Cabinet Relais Vision Aire-sur-la-Lys
 // Généré automatiquement le 02/03/2026
 
 const siteConfig = {
-  ville: "Saint-Sever",
-  codePostal: "40500",
-  region: "Nouvelle-Aquitaine",
+  ville: "Aire-sur-la-Lys",
+  codePostal: "62120",
+  region: "Hauts-de-France",
 
-  praticienne: "Aurélien Le Galliard",
-  bioPraticienne: "Diplômée en orthoptie, Aurélien Le Galliard prend en charge les bilans visuels, le renouvellement d'ordonnances de lunettes et la rééducation orthoptique pour les enfants et adultes.",
+  praticienne: "Cécile Monvoisin",
+  bioPraticienne: "Diplômée en orthoptie, Cécile Monvoisin prend en charge les bilans visuels, le renouvellement d'ordonnances de lunettes et la rééducation orthoptique pour les enfants et adultes.",
   specialitesPraticienne: [
     "Neurovision",
     "Bilan visuel enfant",
@@ -32,14 +32,14 @@ const siteConfig = {
 
   medecin: "Dr. Sofiane Souissi",
 
-  adresseLigne1: "3 Rue De La Guillerie",
-  adresseLigne2: "40500 Saint-Sever",
+  adresseLigne1: "307 Route De Roquetoire",
+  adresseLigne2: "62120 Aire-sur-la-Lys",
 
   telephone: "806110504",
   telephoneAffiche: "0 806 11 05 04",
-  email: "saint-sever-40@relais-vision.fr",
+  email: "aire-sur-la-lys-62@relais-vision.fr",
 
-  doctolibUrl: "https://www.doctolib.fr/cabinet-paramedical/saint-sever/relais-vision-saint-sever",
+  doctolibUrl: "https://www.doctolib.fr/cabinet-paramedical/aire-sur-la-lys/relais-vision-aire-sur-la-lys",
 
   horaires: [
     { jours: "Lun - Ven", heures: "9h00 - 18h00" },
