@@ -1,13 +1,13 @@
-// Configuration — Cabinet Relais Vision Bayon
+// Configuration — Cabinet Relais Vision Lesparre
 // Généré automatiquement le 02/03/2026
 
 const siteConfig = {
-  ville: "Bayon",
-  codePostal: "54290",
-  region: "Grand Est",
+  ville: "Lesparre",
+  codePostal: "33340",
+  region: "Nouvelle-Aquitaine",
 
-  praticienne: "Alexia Alvarez",
-  bioPraticienne: "Diplômée en orthoptie, Alexia Alvarez prend en charge les bilans visuels, le renouvellement d'ordonnances de lunettes et la rééducation orthoptique pour les enfants et adultes.",
+  praticienne: "Pauline Gueret",
+  bioPraticienne: "Diplômée en orthoptie, Pauline Gueret prend en charge les bilans visuels, le renouvellement d'ordonnances de lunettes et la rééducation orthoptique pour les enfants et adultes.",
   specialitesPraticienne: [
     "Neurovision",
     "Bilan visuel enfant",
@@ -32,14 +32,14 @@ const siteConfig = {
 
   medecin: "Dr. Sofiane Souissi",
 
-  adresseLigne1: "4 Rue De Maizerai",
-  adresseLigne2: "54290 Bayon",
+  adresseLigne1: "5 Place Gambetta",
+  adresseLigne2: "33340 Lesparre",
 
   telephone: "806110504",
   telephoneAffiche: "0 806 11 05 04",
-  email: "bayon-54@relais-vision.fr",
+  email: "lesparre-33@relais-vision.fr",
 
-  doctolibUrl: "https://www.doctolib.fr/cabinet-paramedical/bayon/relais-vision-bayon",
+  doctolibUrl: "https://www.doctolib.fr/cabinet-paramedical/lesparre/relais-vision-lesparre",
 
   horaires: [
     { jours: "Lun - Ven", heures: "9h00 - 18h00" },
