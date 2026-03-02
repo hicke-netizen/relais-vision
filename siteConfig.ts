@@ -1,13 +1,13 @@
-// Configuration — Cabinet Relais Vision Ernée
+// Configuration — Cabinet Relais Vision Saint-Sever
 // Généré automatiquement le 02/03/2026
 
 const siteConfig = {
-  ville: "Ernée",
-  codePostal: "53500",
-  region: "Pays de la Loire",
+  ville: "Saint-Sever",
+  codePostal: "40500",
+  region: "Nouvelle-Aquitaine",
 
-  praticienne: "Pauline Chrétien",
-  bioPraticienne: "Diplômée en orthoptie, Pauline Chrétien prend en charge les bilans visuels, le renouvellement d'ordonnances de lunettes et la rééducation orthoptique pour les enfants et adultes.",
+  praticienne: "Aurélien Le Galliard",
+  bioPraticienne: "Diplômée en orthoptie, Aurélien Le Galliard prend en charge les bilans visuels, le renouvellement d'ordonnances de lunettes et la rééducation orthoptique pour les enfants et adultes.",
   specialitesPraticienne: [
     "Neurovision",
     "Bilan visuel enfant",
@@ -32,14 +32,14 @@ const siteConfig = {
 
   medecin: "Dr. Sofiane Souissi",
 
-  adresseLigne1: "24 Avenue De Paris",
-  adresseLigne2: "53500 Ernée",
+  adresseLigne1: "3 Rue De La Guillerie",
+  adresseLigne2: "40500 Saint-Sever",
 
   telephone: "806110504",
   telephoneAffiche: "0 806 11 05 04",
-  email: "ernee-53@relais-vision.fr",
+  email: "saint-sever-40@relais-vision.fr",
 
-  doctolibUrl: "https://www.doctolib.fr/cabinet-paramedical/ernee/relais-vision-ernee",
+  doctolibUrl: "https://www.doctolib.fr/cabinet-paramedical/saint-sever/relais-vision-saint-sever",
 
   horaires: [
     { jours: "Lun - Ven", heures: "9h00 - 18h00" },
