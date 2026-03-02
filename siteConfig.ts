@@ -1,13 +1,13 @@
-// Configuration — Cabinet Relais Vision Guidel
+// Configuration — Cabinet Relais Vision Crépy-en-Valois
 // Généré automatiquement le 02/03/2026
 
 const siteConfig = {
-  ville: "Guidel",
-  codePostal: "56520",
-  region: "Bretagne",
+  ville: "Crépy-en-Valois",
+  codePostal: "60800",
+  region: "Hauts-de-France",
 
-  praticienne: "Mathieu Combellas",
-  bioPraticienne: "Diplômée en orthoptie, Mathieu Combellas prend en charge les bilans visuels, le renouvellement d'ordonnances de lunettes et la rééducation orthoptique pour les enfants et adultes.",
+  praticienne: "Laurette Raulot",
+  bioPraticienne: "Diplômée en orthoptie, Laurette Raulot prend en charge les bilans visuels, le renouvellement d'ordonnances de lunettes et la rééducation orthoptique pour les enfants et adultes.",
   specialitesPraticienne: [
     "Neurovision",
     "Bilan visuel enfant",
@@ -32,14 +32,14 @@ const siteConfig = {
 
   medecin: "Dr. Sofiane Souissi",
 
-  adresseLigne1: "31 Place Louis Le Montagner",
-  adresseLigne2: "56520 Guidel",
+  adresseLigne1: "Rue Tassart",
+  adresseLigne2: "60800 Crépy-en-Valois",
 
   telephone: "806110504",
   telephoneAffiche: "0 806 11 05 04",
-  email: "guidel-56@relais-vision.fr",
+  email: "crepy-en-valois-60@relais-vision.fr",
 
-  doctolibUrl: "https://www.doctolib.fr/cabinet-paramedical/guidel/relais-vision-guidel",
+  doctolibUrl: "https://www.doctolib.fr/cabinet-paramedical/crepy-en-valois/relais-vision-crepy-en-valois",
 
   horaires: [
     { jours: "Lun - Ven", heures: "9h00 - 18h00" },
