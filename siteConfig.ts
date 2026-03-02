@@ -1,13 +1,13 @@
-// Configuration — Cabinet Relais Vision Martres-de-Veyre
+// Configuration — Cabinet Relais Vision Soubise
 // Généré automatiquement le 02/03/2026
 
 const siteConfig = {
-  ville: "Martres-de-Veyre",
-  codePostal: "63730",
-  region: "Auvergne-Rhône-Alpes",
+  ville: "Soubise",
+  codePostal: "17780",
+  region: "Nouvelle-Aquitaine",
 
-  praticienne: "Camille Muetton",
-  bioPraticienne: "Diplômée en orthoptie, Camille Muetton prend en charge les bilans visuels, le renouvellement d'ordonnances de lunettes et la rééducation orthoptique pour les enfants et adultes.",
+  praticienne: "Estelle Grutus",
+  bioPraticienne: "Diplômée en orthoptie, Estelle Grutus prend en charge les bilans visuels, le renouvellement d'ordonnances de lunettes et la rééducation orthoptique pour les enfants et adultes.",
   specialitesPraticienne: [
     "Neurovision",
     "Bilan visuel enfant",
@@ -32,14 +32,14 @@ const siteConfig = {
 
   medecin: "Dr. Sofiane Souissi",
 
-  adresseLigne1: "20 Rue Du Grand Clos",
-  adresseLigne2: "63730 Martres-de-Veyre",
+  adresseLigne1: "10 Avenue Charles De Gaulle",
+  adresseLigne2: "17780 Soubise",
 
   telephone: "806110504",
   telephoneAffiche: "0 806 11 05 04",
-  email: "martres-de-veyre-63@relais-vision.fr",
+  email: "soubise-17@relais-vision.fr",
 
-  doctolibUrl: "https://www.doctolib.fr/cabinet-paramedical/martres-de-veyre/relais-vision-martres-de-veyre",
+  doctolibUrl: "https://www.doctolib.fr/cabinet-paramedical/soubise/relais-vision-soubise",
 
   horaires: [
     { jours: "Lun - Ven", heures: "9h00 - 18h00" },
