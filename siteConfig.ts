@@ -1,13 +1,13 @@
-// Configuration — Cabinet Relais Vision Isneauville
+// Configuration — Cabinet Relais Vision Halluin
 // Généré automatiquement le 02/03/2026
 
 const siteConfig = {
-  ville: "Isneauville",
-  codePostal: "76230",
-  region: "Normandie",
+  ville: "Halluin",
+  codePostal: "59250",
+  region: "Hauts-de-France",
 
-  praticienne: "Corentin Frété",
-  bioPraticienne: "Diplômée en orthoptie, Corentin Frété prend en charge les bilans visuels, le renouvellement d'ordonnances de lunettes et la rééducation orthoptique pour les enfants et adultes.",
+  praticienne: "Katy Pirog",
+  bioPraticienne: "Diplômée en orthoptie, Katy Pirog prend en charge les bilans visuels, le renouvellement d'ordonnances de lunettes et la rééducation orthoptique pour les enfants et adultes.",
   specialitesPraticienne: [
     "Neurovision",
     "Bilan visuel enfant",
@@ -32,14 +32,14 @@ const siteConfig = {
 
   medecin: "Dr. Sofiane Souissi",
 
-  adresseLigne1: "239 Rue Du Mont Perreux",
-  adresseLigne2: "76230 Isneauville",
+  adresseLigne1: "7 Chemin De Tournai",
+  adresseLigne2: "59250 Halluin",
 
   telephone: "806110504",
   telephoneAffiche: "0 806 11 05 04",
-  email: "isneauville-76@relais-vision.fr",
+  email: "halluin-59@relais-vision.fr",
 
-  doctolibUrl: "https://www.doctolib.fr/cabinet-paramedical/isneauville/relais-vision-isneauville",
+  doctolibUrl: "https://www.doctolib.fr/cabinet-paramedical/halluin/relais-vision-halluin",
 
   horaires: [
     { jours: "Lun - Ven", heures: "9h00 - 18h00" },
