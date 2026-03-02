@@ -1,13 +1,13 @@
-// Configuration — Cabinet Relais Vision Romans-sur-Isère
+// Configuration — Cabinet Relais Vision Cahors
 // Généré automatiquement le 02/03/2026
 
 const siteConfig = {
-  ville: "Romans-sur-Isère",
-  codePostal: "26100",
-  region: "Auvergne-Rhône-Alpes",
+  ville: "Cahors",
+  codePostal: "46000",
+  region: "Occitanie",
 
-  praticienne: "Morgane D’Amato",
-  bioPraticienne: "Diplômée en orthoptie, Morgane D’Amato prend en charge les bilans visuels, le renouvellement d'ordonnances de lunettes et la rééducation orthoptique pour les enfants et adultes.",
+  praticienne: "Lucas Bodot",
+  bioPraticienne: "Diplômée en orthoptie, Lucas Bodot prend en charge les bilans visuels, le renouvellement d'ordonnances de lunettes et la rééducation orthoptique pour les enfants et adultes.",
   specialitesPraticienne: [
     "Neurovision",
     "Bilan visuel enfant",
@@ -32,14 +32,14 @@ const siteConfig = {
 
   medecin: "Dr. Sofiane Souissi",
 
-  adresseLigne1: "5 Rue Germain Martin",
-  adresseLigne2: "26100 Romans-sur-Isère",
+  adresseLigne1: "350 Route De Cahors",
+  adresseLigne2: "46000 Cahors",
 
   telephone: "806110504",
   telephoneAffiche: "0 806 11 05 04",
-  email: "romans-sur-isere-26@relais-vision.fr",
+  email: "cahors-46@relais-vision.fr",
 
-  doctolibUrl: "https://www.doctolib.fr/cabinet-paramedical/romans-sur-isere/relais-vision-romans-sur-isere",
+  doctolibUrl: "https://www.doctolib.fr/cabinet-paramedical/cahors/relais-vision-cahors",
 
   horaires: [
     { jours: "Lun - Ven", heures: "9h00 - 18h00" },
