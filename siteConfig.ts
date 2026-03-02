@@ -1,13 +1,13 @@
-// Configuration — Cabinet Relais Vision Cateau-Cambrésis
+// Configuration — Cabinet Relais Vision Tonnerre
 // Généré automatiquement le 02/03/2026
 
 const siteConfig = {
-  ville: "Cateau-Cambrésis",
-  codePostal: "59360",
-  region: "Hauts-de-France",
+  ville: "Tonnerre",
+  codePostal: "89700",
+  region: "Bourgogne-Franche-Comté",
 
-  praticienne: "Alicia Loncle",
-  bioPraticienne: "Diplômée en orthoptie, Alicia Loncle prend en charge les bilans visuels, le renouvellement d'ordonnances de lunettes et la rééducation orthoptique pour les enfants et adultes.",
+  praticienne: "Ibtissame Youssouf Said",
+  bioPraticienne: "Diplômée en orthoptie, Ibtissame Youssouf Said prend en charge les bilans visuels, le renouvellement d'ordonnances de lunettes et la rééducation orthoptique pour les enfants et adultes.",
   specialitesPraticienne: [
     "Neurovision",
     "Bilan visuel enfant",
@@ -32,14 +32,14 @@ const siteConfig = {
 
   medecin: "Dr. Sofiane Souissi",
 
-  adresseLigne1: "28 Boulevard Paturle",
-  adresseLigne2: "59360 Cateau-Cambrésis",
+  adresseLigne1: "Chemin Des Jumeriaux",
+  adresseLigne2: "89700 Tonnerre",
 
   telephone: "806110504",
   telephoneAffiche: "0 806 11 05 04",
-  email: "cateau-cambresis-59@relais-vision.fr",
+  email: "tonnerre-89@relais-vision.fr",
 
-  doctolibUrl: "https://www.doctolib.fr/cabinet-paramedical/cateau-cambresis/relais-vision-cateau-cambresis",
+  doctolibUrl: "https://www.doctolib.fr/cabinet-paramedical/tonnerre/relais-vision-tonnerre",
 
   horaires: [
     { jours: "Lun - Ven", heures: "9h00 - 18h00" },
